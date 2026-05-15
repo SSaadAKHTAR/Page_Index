@@ -1,25 +1,3 @@
-"""Image extraction from a PDF using chunk metadata.
-
-Reads `chunks_aae8a22c.json` which contains `has_image_refs` chunks.
-For each image ref, crops the corresponding bbox area from the PDF page
-and saves the extracted image along with a small sidecar JSON.
-
-Why PyMuPDF?
-- Fast page rendering and cropping.
-- Direct coordinate-based clipping via `get_pixmap(clip=Rect)`.
-
-Usage:
-  python3 Image_defination/Image_Extract.py \
-    --chunks Image_defination/chunks_aae8a22c.json \
-    --pdf UCIE_1.1.pdf \
-    --out Image_defination/Images \
-    --dpi 200
-
-Output:
-  Image_defination/Images/<image_id>.png
-  Image_defination/Images/<image_id>.json (metadata)
-"""
-
 from __future__ import annotations
 
 import argparse
