@@ -1,17 +1,3 @@
-"""
-PDF to Markdown Converter
-=========================
-Converts a PDF file into a Markdown (.md) file with:
-  1. All text extracted exactly as it appears.
-  2. Every image/figure replaced by 3 blank lines, with the figure
-     label (e.g. "Figure 1-2") written on the middle line.
-  3. Every table converted to a structured Markdown table.
-
-Usage:
-    python pdf_to_md.py --pdf input.pdf --out output.md
-    python pdf_to_md.py --pdf input.pdf --out output.md --overwrite
-"""
-
 from __future__ import annotations
 
 import argparse
@@ -23,18 +9,14 @@ import fitz          # PyMuPDF  – image / block detection
 import pdfplumber    # table + text extraction
 
 
-# ---------------------------------------------------------------------------
 # Regex for figure / table caption labels, e.g. "Figure 1", "Fig. 2-3"
-# ---------------------------------------------------------------------------
 CAPTION_RE = re.compile(
     r"\b(Figure|Fig\.?|Table)\s+([0-9]+(?:[.\-][0-9]+)*)\b",
     re.IGNORECASE,
 )
 
 
-# ---------------------------------------------------------------------------
 # Helpers
-# ---------------------------------------------------------------------------
 
 def _caption_in_text(text: str) -> str:
     """Return the first caption label found in *text*, or '' if none."""
@@ -101,9 +83,7 @@ def _find_figure_label_near(img_rect: Tuple[float, float, float, float],
     return _caption_in_text(nearby)
 
 
-# ---------------------------------------------------------------------------
 # Per-page rendering
-# ---------------------------------------------------------------------------
 
 def _render_page(plumber_page, fitz_page: fitz.Page) -> str:
     """
@@ -120,7 +100,7 @@ def _render_page(plumber_page, fitz_page: fitz.Page) -> str:
       • table       → structured Markdown table
     """
 
-    # ── 1. Detect tables via pdfplumber ─────────────────────────────────────
+    # 1. Detect tables via pdfplumber 
     pl_tables = plumber_page.extract_tables() or []
     pl_table_bboxes: List[Tuple[float, float, float, float]] = []
     table_items: List[Tuple[float, str]] = []
@@ -133,7 +113,7 @@ def _render_page(plumber_page, fitz_page: fitz.Page) -> str:
             pl_table_bboxes.append(bbox)
             table_items.append((bbox[1], md))   # y0 = bbox[1] (top)
 
-    # ── 2. Collect fitz blocks sorted by y ──────────────────────────────────
+    #  2. Collect fitz blocks sorted by y 
     raw = fitz_page.get_text("dict", flags=fitz.TEXT_PRESERVE_WHITESPACE)
     blocks = sorted(raw.get("blocks", []), key=lambda b: b["bbox"][1])
 
@@ -160,7 +140,7 @@ def _render_page(plumber_page, fitz_page: fitz.Page) -> str:
                 emitted_table_indices.add(overlapping_table_idx)
             continue   # skip raw text inside table region
 
-        # ── Text block ───────────────────────────────────────────────────────
+        #  3. Text block 
         if btype == 0:
             lines: List[str] = []
             for line in block.get("lines", []):
@@ -171,7 +151,7 @@ def _render_page(plumber_page, fitz_page: fitz.Page) -> str:
             if lines:
                 output_items.append((by0, "\n".join(lines)))
 
-        # ── Image block ──────────────────────────────────────────────────────
+        #  4. Image block 
         elif btype == 1:
             label = _find_figure_label_near(b_rect, fitz_page)
             if not label:
@@ -184,14 +164,12 @@ def _render_page(plumber_page, fitz_page: fitz.Page) -> str:
         if idx not in emitted_table_indices:
             output_items.append((ty0, f"\n{tmd}\n"))
 
-    # ── 4. Sort by vertical position and concatenate ─────────────────────────
+    #  4. Sort by vertical position and concatenate 
     output_items.sort(key=lambda x: x[0])
     return "\n".join(chunk for _, chunk in output_items)
 
 
-# ---------------------------------------------------------------------------
 # Main conversion
-# ---------------------------------------------------------------------------
 
 def pdf_to_md(pdf_path: str, out_path: str, overwrite: bool = False) -> str:
     """Convert *pdf_path* → Markdown file at *out_path*. Returns *out_path*."""
@@ -226,9 +204,7 @@ def pdf_to_md(pdf_path: str, out_path: str, overwrite: bool = False) -> str:
     return out_path
 
 
-# ---------------------------------------------------------------------------
 # CLI
-# ---------------------------------------------------------------------------
 
 def main() -> None:
     ap = argparse.ArgumentParser(

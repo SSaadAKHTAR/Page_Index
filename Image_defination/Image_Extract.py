@@ -133,7 +133,7 @@ def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument(
         "--chunks",
-        default="Image_defination/chunks_aae8a22c.json",
+        default="Image_defination/chunks_be1581d8.json",
         help="Path to chunks JSON containing image_refs.",
     )
     ap.add_argument(
@@ -141,7 +141,7 @@ def main() -> None:
         default="UCIE_1.1.pdf",
         help="Path to the PDF to crop from.",
     )
-    ap.add_argument(
+    ap.add_argument(    
         "--out",
         default="Image_defination/Images",
         help="Output directory for extracted images.",
