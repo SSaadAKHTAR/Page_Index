@@ -157,7 +157,7 @@ def _render_page(plumber_page, fitz_page: fitz.Page) -> str:
             if not label:
                 label = "Image"   # fallback when PDF has no caption nearby
             # 3-line gap: blank line, label, blank line
-            output_items.append((by0, f"\n{label}\n"))
+            output_items.append((by0, f"\nimage: {label}\n"))
 
     # ── 3. Emit tables that were never touched by a text/image block ─────────
     for idx, (ty0, tmd) in enumerate(table_items):

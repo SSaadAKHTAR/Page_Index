@@ -3,158 +3,220 @@ from __future__ import annotations
 import argparse
 import json
 import os
-from dataclasses import dataclass
-from typing import Any, Dict, List, Optional, Sequence
+import re
 
-import fitz  # PyMuPDF
-
-
-@dataclass(frozen=True)
-class ImageRef:
-    image_id: str
-    page: int
-    bbox: List[float]
-    caption: str
-    relationship_id: Any = None
-    source_file: Optional[str] = None
+import fitz
 
 
-def _parse_image_refs(chunk: Dict[str, Any]) -> List[ImageRef]:
-    if not chunk.get("has_image_refs"):
-        return []
-    refs = chunk.get("image_refs") or []
-    out: List[ImageRef] = []
-    for r in refs:
-        out.append(
-            ImageRef(
-                image_id=r["image_id"],
-                page=int(r["page"]),  # stored as 1-indexed
-                bbox=list(r["bbox"]),
-                caption=r.get("caption", ""),
-                relationship_id=r.get("relationship_id"),
-                source_file=r.get("source_file"),
-            )
-        )
-    return out
+def sanitize_filename(name: str) -> str:
+    """
+    Remove characters that are invalid in filenames on Windows/Linux/macOS.
+    """
+    name = re.sub(r'[<>:"/\\|?*]', '_', name)
+    name = re.sub(r'\s+', ' ', name)
+    return name.strip()
 
 
 def extract_images(
-    chunks_path: str,
+    figures_json: str,
     pdf_path: str,
     out_dir: str,
     dpi: int = 200,
     bbox_pad: float = 2.0,
     overwrite: bool = False,
-    limit: Optional[int] = None,
-) -> None:
+    limit: int | None = None,
+):
     os.makedirs(out_dir, exist_ok=True)
 
-    with open(chunks_path, "r", encoding="utf-8") as f:
-        chunks = json.load(f)
+    with open(figures_json, "r", encoding="utf-8") as f:
+        figures = json.load(f)
 
-    image_refs: List[ImageRef] = []
-    for chunk in chunks:
-        image_refs.extend(_parse_image_refs(chunk))
+    image_entries = [
+        item
+        for item in figures
+        if item.get("chunk_type") == "image"
+    ]
 
     if limit is not None:
-        image_refs = image_refs[:limit]
+        image_entries = image_entries[:limit]
 
-    if not image_refs:
-        print("No image refs found (has_image_refs=false for all chunks).")
+    if not image_entries:
+        print("No image entries found.")
         return
 
     doc = fitz.open(pdf_path)
-    # PyMuPDF pages are 0-indexed; bbox/page are stored as 1-indexed in your JSON.
 
     zoom = dpi / 72.0
+    matrix = fitz.Matrix(zoom, zoom)
 
     extracted = 0
-    for ref in image_refs:
-        page_index = ref.page - 1
+
+    # Track filenames to avoid duplicates
+    used_filenames = set()
+
+    for item in image_entries:
+
+        image_id = item["image_id"]
+        page_num = item["page"]
+        bbox = item["bbox"]
+
+        page_index = page_num - 1
+
         if page_index < 0 or page_index >= len(doc):
-            print(f"[skip] image_id={ref.image_id} invalid page={ref.page}")
+            print(
+                f"[skip] {image_id}: invalid page {page_num}"
+            )
             continue
 
-        x0, y0, x1, y1 = ref.bbox
-        # Add a small padding in PDF coordinates.
+        x0, y0, x1, y1 = bbox
+
         x0 -= bbox_pad
         y0 -= bbox_pad
         x1 += bbox_pad
         y1 += bbox_pad
-        # Ensure positive width/height.
+
         if x1 <= x0 or y1 <= y0:
-            print(f"[skip] image_id={ref.image_id} invalid bbox={ref.bbox}")
+            print(
+                f"[skip] {image_id}: invalid bbox"
+            )
             continue
 
         page = doc.load_page(page_index)
 
-        rect = fitz.Rect(x0, y0, x1, y1)
+        clip_rect = fitz.Rect(x0, y0, x1, y1)
 
-        # Render only the clipped region.
-        # Note: use matrix for dpi and still pass clip in page coordinates.
-        mat = fitz.Matrix(zoom, zoom)
-        pix = page.get_pixmap(matrix=mat, clip=rect, alpha=False)
+        pix = page.get_pixmap(
+            matrix=matrix,
+            clip=clip_rect,
+            alpha=False,
+        )
 
-        out_img = os.path.join(out_dir, f"{ref.image_id}.png")
-        out_meta = os.path.join(out_dir, f"{ref.image_id}.json")
+        # ----------------------------
+        # Generate filename from caption
+        # ----------------------------
+        caption = item.get("caption", "").strip()
 
-        if (not overwrite) and os.path.exists(out_img):
+        if caption:
+            filename = sanitize_filename(caption)
+        else:
+            filename = image_id
+
+        # Handle duplicate captions
+        original_filename = filename
+        counter = 1
+
+        while filename in used_filenames:
+            filename = f"{original_filename}_{counter}"
+            counter += 1
+
+        used_filenames.add(filename)
+
+        out_img = os.path.join(
+            out_dir,
+            f"{filename}.png"
+        )
+
+        out_meta = os.path.join(
+            out_dir,
+            f"{filename}.json"
+        )
+
+        if (
+            not overwrite
+            and os.path.exists(out_img)
+        ):
             continue
 
         pix.save(out_img)
 
-        with open(out_meta, "w", encoding="utf-8") as f:
+        with open(out_meta, "w", encoding="utf-8") as mf:
             json.dump(
                 {
-                    "image_id": ref.image_id,
-                    "page": ref.page,
-                    "bbox": ref.bbox,
-                    "caption": ref.caption,
-                    "relationship_id": ref.relationship_id,
-                    "source_file": ref.source_file,
-                    "pdf_path": pdf_path,
-                    "chunks_path": chunks_path,
+                    "image_id": image_id,
+                    "page": page_num,
+                    "bbox": bbox,
+                    "caption": caption,
+                    "caption_bbox": item.get(
+                        "caption_bbox"
+                    ),
+                    "subtype": item.get(
+                        "subtype"
+                    ),
+                    "source_file": item.get(
+                        "source_file"
+                    ),
                     "dpi": dpi,
                     "bbox_pad": bbox_pad,
                 },
-                f,
-                ensure_ascii=False,
+                mf,
                 indent=2,
+                ensure_ascii=False,
             )
 
         extracted += 1
+
+        print(
+            f"[{extracted}] Saved: {filename}.png"
+        )
+
         if extracted % 25 == 0:
-            print(f"Extracted {extracted}/{len(image_refs)}...")
+            print(
+                f"Extracted {extracted}/{len(image_entries)}"
+            )
 
-    print(f"Done. Extracted {extracted} images to: {out_dir}")
-
-
-def main() -> None:
-    ap = argparse.ArgumentParser()
-    ap.add_argument(
-        "--chunks",
-        default="Image_defination/chunks_be1581d8.json",
-        help="Path to chunks JSON containing image_refs.",
+    print(
+        f"\nDone. Extracted {extracted} images to '{out_dir}'."
     )
-    ap.add_argument(
+
+
+def main():
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument(
+        "--figures",
+        default="figures_1803e192.json",
+        help="Path to figures JSON file."
+    )
+
+    parser.add_argument(
         "--pdf",
         default="UCIE_1.1.pdf",
-        help="Path to the PDF to crop from.",
+        help="Path to PDF file."
     )
-    ap.add_argument(    
-        "--out",
-        default="Image_defination/Images",
-        help="Output directory for extracted images.",
-    )
-    ap.add_argument("--dpi", type=int, default=200)
-    ap.add_argument("--bbox-pad", type=float, default=2.0)
-    ap.add_argument("--overwrite", action="store_true")
-    ap.add_argument("--limit", type=int, default=None)
 
-    args = ap.parse_args()
+    parser.add_argument(
+        "--out",
+        default="Images",
+        help="Output directory."
+    )
+
+    parser.add_argument(
+        "--dpi",
+        type=int,
+        default=200,
+    )
+
+    parser.add_argument(
+        "--bbox-pad",
+        type=float,
+        default=2.0,
+    )
+
+    parser.add_argument(
+        "--overwrite",
+        action="store_true",
+    )
+
+    parser.add_argument(
+        "--limit",
+        type=int,
+        default=None,
+    )
+
+    args = parser.parse_args()
 
     extract_images(
-        chunks_path=args.chunks,
+        figures_json=args.figures,
         pdf_path=args.pdf,
         out_dir=args.out,
         dpi=args.dpi,
@@ -166,4 +228,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

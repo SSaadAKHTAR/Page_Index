@@ -1,0 +1,5070 @@
+[
+  {
+    "chunk_id": "0fd68fe9-d624-4e27-9e41-b32e76ef07df",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 0,
+    "chunk_type": "image",
+    "page": 26,
+    "bbox": [
+      0,
+      111.17549133300781,
+      612,
+      271
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      513.1489868164062,
+      111.17549133300781
+    ],
+    "image_id": "1803e192_p26_fig1",
+    "subtype": "raster",
+    "caption": "Figure 1-1. A Package Composed of CPU Dies, Accelerator Die(s), and I/O Tile Die Connected through UCIe",
+    "section_title": "",
+    "token_count": 17,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "bae36d1b-43dd-48af-b6a4-15e907383d6e",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 1,
+    "chunk_type": "image",
+    "page": 27,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      330
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      401.38330078125,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p27_fig2",
+    "subtype": "raster",
+    "caption": "Figure 1-2. UCIe enabling long-reach connectivity at Rack/Pod Level",
+    "section_title": "",
+    "token_count": 9,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "6eafa934-4b58-4c31-9191-2c0b98e4303c",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 2,
+    "chunk_type": "image",
+    "page": 27,
+    "bbox": [
+      0,
+      468.29547119140625,
+      612,
+      652.1955108642578
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      458.5971374511719,
+      268.3229675292969,
+      468.29547119140625
+    ],
+    "image_id": "1803e192_p27_fig3",
+    "subtype": "vector",
+    "caption": "Figure 1-3. Standard Package interface",
+    "section_title": "",
+    "token_count": 5,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "1c1b15a4-8424-4e3f-af05-e4ae137a5c63",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 3,
+    "chunk_type": "image",
+    "page": 28,
+    "bbox": [
+      0,
+      316.1954650878906,
+      612,
+      369
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      306.49713134765625,
+      323.60906982421875,
+      316.1954650878906
+    ],
+    "image_id": "1803e192_p28_fig4",
+    "subtype": "vector",
+    "caption": "Figure 1-4. Advanced Package interface: Example 1",
+    "section_title": "1. See Chapter 5.0 for details about BER characteristics.",
+    "token_count": 7,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "5dd6e1a5-83be-4421-9a73-34874805c6dd",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 4,
+    "chunk_type": "image",
+    "page": 28,
+    "bbox": [
+      0,
+      385.4953918457031,
+      612,
+      459.1954650878906
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      375.79705810546875,
+      323.60906982421875,
+      385.4953918457031
+    ],
+    "image_id": "1803e192_p28_fig5",
+    "subtype": "vector",
+    "caption": "Figure 1-5. Advanced Package interface: Example 2",
+    "section_title": "1. See Chapter 5.0 for details about BER characteristics.",
+    "token_count": 7,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "3bccdb10-f70b-4e08-8aaf-4bd91a9f5e57",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 5,
+    "chunk_type": "image",
+    "page": 28,
+    "bbox": [
+      0,
+      475.07568359375,
+      612,
+      548.4953918457031
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      465.3773498535156,
+      323.60906982421875,
+      475.07568359375
+    ],
+    "image_id": "1803e192_p28_fig6",
+    "subtype": "vector",
+    "caption": "Figure 1-6. Advanced Package interface: Example 3",
+    "section_title": "1. See Chapter 5.0 for details about BER characteristics.",
+    "token_count": 7,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "616e298a-3469-4243-8af7-f60a921c590f",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 6,
+    "chunk_type": "image",
+    "page": 29,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      354
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      285.12884521484375,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p29_fig7",
+    "subtype": "vector",
+    "caption": "Figure 1-7. UCIe Layers and functionalities",
+    "section_title": "",
+    "token_count": 6,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "08537041-4d18-46c3-97bb-1b908baed0b3",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 7,
+    "chunk_type": "image",
+    "page": 30,
+    "bbox": [
+      0,
+      143.21546936035156,
+      612,
+      285
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      133.51712036132812,
+      266.6766662597656,
+      143.21546936035156
+    ],
+    "image_id": "1803e192_p30_fig8",
+    "subtype": "vector",
+    "caption": "Figure 1-8. Physical Layer components",
+    "section_title": "1.1.3 Physical Layer",
+    "token_count": 5,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "981bfe0d-cda8-4cc7-b5fb-f52e4129a339",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 8,
+    "chunk_type": "image",
+    "page": 31,
+    "bbox": [
+      0,
+      330.2354736328125,
+      612,
+      474
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      320.5371398925781,
+      360.81524658203125,
+      330.2354736328125
+    ],
+    "image_id": "1803e192_p31_fig9",
+    "subtype": "vector",
+    "caption": "Figure 1-9. Single module configuration: Advanced Package",
+    "section_title": "1.2.1 Single Module configuration",
+    "token_count": 7,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "95b78239-34bd-4f37-958e-352d757caf6f",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 9,
+    "chunk_type": "image",
+    "page": 31,
+    "bbox": [
+      0,
+      491.6357421875,
+      612,
+      626.2354736328125
+    ],
+    "caption_bbox": [
+      79.3800048828125,
+      481.9374084472656,
+      358.14666748046875,
+      491.6357421875
+    ],
+    "image_id": "1803e192_p31_fig10",
+    "subtype": "vector",
+    "caption": "Figure 1-10. Single module configuration: Standard Package",
+    "section_title": "1.2.1 Single Module configuration",
+    "token_count": 7,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "40435090-42f2-4a10-a7af-2dfcdd3b63d0",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 10,
+    "chunk_type": "image",
+    "page": 32,
+    "bbox": [
+      0,
+      176.21546936035156,
+      612,
+      317
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      166.51712036132812,
+      362.64739990234375,
+      176.21546936035156
+    ],
+    "image_id": "1803e192_p32_fig11",
+    "subtype": "vector",
+    "caption": "Figure 1-11. Two-module configuration for Standard Package",
+    "section_title": "1.2.2 Multi-module Configurations",
+    "token_count": 7,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "3d65d48f-f436-46f3-ab1e-da8e6e95a646",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 11,
+    "chunk_type": "image",
+    "page": 32,
+    "bbox": [
+      0,
+      345.1751708984375,
+      612,
+      416.21546936035156
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      335.4768371582031,
+      364.1085510253906,
+      345.1751708984375
+    ],
+    "image_id": "1803e192_p32_fig12",
+    "subtype": "vector",
+    "caption": "Figure 1-12. Four-module configuration for Standard Package",
+    "section_title": "1.2.2 Multi-module Configurations",
+    "token_count": 7,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "ff076574-cdc6-4774-a989-b26664965753",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 12,
+    "chunk_type": "image",
+    "page": 32,
+    "bbox": [
+      0,
+      436.195068359375,
+      612,
+      580.1751708984375
+    ],
+    "caption_bbox": [
+      79.3800048828125,
+      426.4967346191406,
+      427.0835266113281,
+      436.195068359375
+    ],
+    "image_id": "1803e192_p32_fig13",
+    "subtype": "vector",
+    "caption": "Figure 1-13. Example of a Two-module Configuration for Advanced Package",
+    "section_title": "1.2.2 Multi-module Configurations",
+    "token_count": 10,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "9b112735-9ff7-43a3-b41f-31b1bd1769dd",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 13,
+    "chunk_type": "image",
+    "page": 33,
+    "bbox": [
+      0,
+      133.1955108642578,
+      612,
+      250
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      123.49716186523438,
+      341.23974609375,
+      133.1955108642578
+    ],
+    "image_id": "1803e192_p33_fig14",
+    "subtype": "vector",
+    "caption": "Figure 1-14. Block Diagram for UCIe Retimer Connection",
+    "section_title": "",
+    "token_count": 8,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "6aef4561-33b8-41f5-ac2f-3a559568b123",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 14,
+    "chunk_type": "image",
+    "page": 37,
+    "bbox": [
+      0,
+      534.7754516601562,
+      612,
+      599
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      525.0770874023438,
+      398.2396545410156,
+      534.7754516601562
+    ],
+    "image_id": "1803e192_p37_fig15",
+    "subtype": "vector",
+    "caption": "Figure 2-1. Color-coding Convention in Flit Format Byte Map Figures",
+    "section_title": "1. The same table applies to derivative version numbers for the specifications.",
+    "token_count": 10,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "8e0f76ba-ac91-425d-b8ff-77e0f06ea432",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 15,
+    "chunk_type": "image",
+    "page": 41,
+    "bbox": [
+      0,
+      186.1754913330078,
+      612,
+      227
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      176.47714233398438,
+      246.66468811035156,
+      186.1754913330078
+    ],
+    "image_id": "1803e192_p41_fig16",
+    "subtype": "vector",
+    "caption": "Figure 2-2. 68B Flit Format on FDI",
+    "section_title": "",
+    "token_count": 7,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "6115649e-1112-4f64-a2a6-ab7ff5b3c497",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 16,
+    "chunk_type": "image",
+    "page": 43,
+    "bbox": [
+      0,
+      324.2354736328125,
+      612,
+      583
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      314.5371398925781,
+      326.4013977050781,
+      324.2354736328125
+    ],
+    "image_id": "1803e192_p43_fig17",
+    "subtype": "vector",
+    "caption": "Figure 3-1. Functionalities in the Die-to-Die Adapter",
+    "section_title": "3.0 Die-to-Die Adapter",
+    "token_count": 7,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "0ff4508d-e68d-462c-8ea3-e3fc21216429",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 17,
+    "chunk_type": "image",
+    "page": 45,
+    "bbox": [
+      0,
+      188.21546936035156,
+      612,
+      594
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      178.51712036132812,
+      250.30572509765625,
+      188.21546936035156
+    ],
+    "image_id": "1803e192_p45_fig18",
+    "subtype": "vector",
+    "caption": "Figure 3-2. Example configurations",
+    "section_title": "",
+    "token_count": 4,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "3d7d9338-0aaa-4290-bec5-75b671434978",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 18,
+    "chunk_type": "image",
+    "page": 46,
+    "bbox": [
+      0,
+      210.1754913330078,
+      612,
+      538
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      200.47714233398438,
+      291.40863037109375,
+      210.1754913330078
+    ],
+    "image_id": "1803e192_p46_fig19",
+    "subtype": "vector",
+    "caption": "Figure 3-3. Stages of UCIe Link initialization",
+    "section_title": "3.2 Link Initialization",
+    "token_count": 7,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "07c8525c-50a2-45ad-a5de-a47ecae7eff0",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 19,
+    "chunk_type": "image",
+    "page": 50,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      290
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      429.6674499511719,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p50_fig20",
+    "subtype": "vector",
+    "caption": "Figure 3-4. Parameter exchange for Adapter Capabilities for PCIe Flit Mode",
+    "section_title": "",
+    "token_count": 11,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "3cb04464-0ec0-4bf4-868e-a83652c16118",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 20,
+    "chunk_type": "image",
+    "page": 50,
+    "bbox": [
+      0,
+      314.45562744140625,
+      612,
+      617.1955108642578
+    ],
+    "caption_bbox": [
+      79.37998962402344,
+      296.7174377441406,
+      468.8940734863281,
+      314.45562744140625
+    ],
+    "image_id": "1803e192_p50_fig21",
+    "subtype": "vector",
+    "caption": "Figure 3-5. Parameter Exchange if “68B Flit Mode” or “CXL 256B Flit Mode” is 1b in {FinCap.Adapter}",
+    "section_title": "",
+    "token_count": 17,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "01057e64-fc34-46f7-b982-902b001d0c2b",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 21,
+    "chunk_type": "image",
+    "page": 52,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      351
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      239.0076446533203,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p52_fig22",
+    "subtype": "vector",
+    "caption": "Figure 3-6. Both Stacks are PCIe",
+    "section_title": "",
+    "token_count": 6,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "d2cfc844-e60d-4489-8907-27e3a6ce7486",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 22,
+    "chunk_type": "image",
+    "page": 52,
+    "bbox": [
+      0,
+      372.8357238769531,
+      612,
+      685.1955108642578
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      363.13739013671875,
+      234.64456176757812,
+      372.8357238769531
+    ],
+    "image_id": "1803e192_p52_fig23",
+    "subtype": "vector",
+    "caption": "Figure 3-7. Both Stacks are CXL",
+    "section_title": "",
+    "token_count": 6,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "fd9a111f-c295-41fc-bffd-8498478604ec",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 23,
+    "chunk_type": "image",
+    "page": 53,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      355
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      312.7383117675781,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p53_fig24",
+    "subtype": "vector",
+    "caption": "Figure 3-8. Stack 0 is PCIe, Stack 1 is Streaming",
+    "section_title": "",
+    "token_count": 10,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "042dcd72-fc69-47e1-a1f1-706c8ff771eb",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 24,
+    "chunk_type": "image",
+    "page": 53,
+    "bbox": [
+      0,
+      372.8357238769531,
+      612,
+      624.1955108642578
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      363.13739013671875,
+      312.75103759765625,
+      372.8357238769531
+    ],
+    "image_id": "1803e192_p53_fig25",
+    "subtype": "vector",
+    "caption": "Figure 3-9. Stack 0 is Streaming, Stack 1 is PCIe",
+    "section_title": "",
+    "token_count": 10,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "e2e998d0-91d3-456d-b8e8-13eeb65b584c",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 25,
+    "chunk_type": "image",
+    "page": 54,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      353
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      266.8349304199219,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p54_fig26",
+    "subtype": "vector",
+    "caption": "Figure 3-10. Both Stacks are Streaming",
+    "section_title": "",
+    "token_count": 6,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "5f002cf9-5955-4ebc-9fd0-db3c70f5e4de",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 26,
+    "chunk_type": "image",
+    "page": 54,
+    "bbox": [
+      0,
+      372.8357238769531,
+      612,
+      671.1955108642578
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      363.13739013671875,
+      305.67364501953125,
+      372.8357238769531
+    ],
+    "image_id": "1803e192_p54_fig27",
+    "subtype": "vector",
+    "caption": "Figure 3-11. Stack0 is Streaming, Stack 1 is CXL",
+    "section_title": "",
+    "token_count": 9,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "1fd940b6-0770-4456-8e98-e818addc3ba1",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 27,
+    "chunk_type": "image",
+    "page": 55,
+    "bbox": [
+      0,
+      531.2354736328125,
+      612,
+      572
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      521.537109375,
+      245.10044860839844,
+      531.2354736328125
+    ],
+    "image_id": "1803e192_p55_fig28",
+    "subtype": "vector",
+    "caption": "Figure 3-12. Format 1: Raw Format",
+    "section_title": "3.3.1 Raw Format for all protocols",
+    "token_count": 6,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "22bbeee4-bfe1-40f4-bfa9-261c38723cda",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 28,
+    "chunk_type": "image",
+    "page": 58,
+    "bbox": [
+      0,
+      133.1955108642578,
+      612,
+      260
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      121.94586944580078,
+      264.7415771484375,
+      133.1955108642578
+    ],
+    "image_id": "1803e192_p58_fig29",
+    "subtype": "vector",
+    "caption": "Figure 3-13. Format 2: 68B Flit Format 1",
+    "section_title": "",
+    "token_count": 8,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "651923cb-45e0-4575-9433-81b88f2e1b32",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 29,
+    "chunk_type": "image",
+    "page": 58,
+    "bbox": [
+      0,
+      321.17547607421875,
+      612,
+      441.1955108642578
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      309.92584228515625,
+      335.06158447265625,
+      321.17547607421875
+    ],
+    "image_id": "1803e192_p58_fig30",
+    "subtype": "vector",
+    "caption": "Figure 3-14. Format 2: 68B Flit Format PDS Example 1 1",
+    "section_title": "4. Flit 1 CRC Byte 0, Flit 1 CRC Byte 1, Flit 2 CRC Byte 0, and Flit 2 CRC Byte 1, respectively.",
+    "token_count": 11,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "35f87dcc-f870-448c-bd37-713fce9f8051",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 30,
+    "chunk_type": "image",
+    "page": 58,
+    "bbox": [
+      0,
+      510.2353210449219,
+      612,
+      634.1754760742188
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      492.49713134765625,
+      419.7956237792969,
+      510.2353210449219
+    ],
+    "image_id": "1803e192_p58_fig31",
+    "subtype": "vector",
+    "caption": "Figure 3-15. Format 2: 68B Flit Format PDS Example 2 — Extra 0s Padded to Make the Data Transfer a Multiple of 256B 1",
+    "section_title": "4. PDS Flit Header Byte 0 and Byte 1, respectively.",
+    "token_count": 24,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "d855adc3-f9bb-429f-af83-0c9c69048882",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 31,
+    "chunk_type": "image",
+    "page": 59,
+    "bbox": [
+      0,
+      111.17549133300781,
+      612,
+      212
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      419.7956237792969,
+      111.17549133300781
+    ],
+    "image_id": "1803e192_p59_fig32",
+    "subtype": "vector",
+    "caption": "Figure 3-15. Format 2: 68B Flit Format PDS Example 2 — Extra 0s Padded to Make the Data Transfer a Multiple of 256B 1 (Continued)",
+    "section_title": "",
+    "token_count": 25,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "56f99bc7-83ed-4fc7-8196-590eeea4e852",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 32,
+    "chunk_type": "image",
+    "page": 60,
+    "bbox": [
+      0,
+      315.17547607421875,
+      612,
+      419
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      303.92584228515625,
+      408.0815734863281,
+      315.17547607421875
+    ],
+    "image_id": "1803e192_p60_fig33",
+    "subtype": "vector",
+    "caption": "Figure 3-16. Format 3: Standard 256B End Header Flit Format for PCIe 1",
+    "section_title": "",
+    "token_count": 13,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "ab351659-b9f9-4f4a-bca6-81394b71e00e",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 33,
+    "chunk_type": "image",
+    "page": 60,
+    "bbox": [
+      0,
+      480.2354736328125,
+      612,
+      592.1754760742188
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      468.92584228515625,
+      473.30157470703125,
+      480.2354736328125
+    ],
+    "image_id": "1803e192_p60_fig34",
+    "subtype": "vector",
+    "caption": "Figure 3-17. Format 3: Standard 256B End Header Flit Format for Streaming Protocol 1",
+    "section_title": "4. CRC0 Byte 0, CRC0 Byte 1, CRC1 Byte 0, and CRC1 Byte 1, respectively.",
+    "token_count": 14,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "944c118a-f71b-4156-84dd-d9cbb4b5bb0b",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 34,
+    "chunk_type": "image",
+    "page": 61,
+    "bbox": [
+      0,
+      119.21534729003906,
+      612,
+      243
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      101.47714233398438,
+      519.7730102539062,
+      119.21534729003906
+    ],
+    "image_id": "1803e192_p61_fig35",
+    "subtype": "vector",
+    "caption": "Figure 3-18. Format 4: Standard 256B Start Header Flit Format for CXL.cachemem or Streaming Protocol 1",
+    "section_title": "",
+    "token_count": 16,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "387fe1c9-5748-4f06-80bc-f2b78a1a7e0e",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 35,
+    "chunk_type": "image",
+    "page": 61,
+    "bbox": [
+      0,
+      284.2154846191406,
+      612,
+      678.2153472900391
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      272.90582275390625,
+      456.68157958984375,
+      284.2154846191406
+    ],
+    "image_id": "1803e192_p61_fig36",
+    "subtype": "vector",
+    "caption": "Figure 3-19. Format 4: Standard 256B Start Header Flit Format for CXL.io or PCIe 1",
+    "section_title": "3. CRC0 Byte 0, CRC0 Byte 1, CRC1 Byte 0, and CRC1 Byte 1, respectively.",
+    "token_count": 15,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "95cfda7c-f322-4609-8df6-bd3af7a9c59c",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 36,
+    "chunk_type": "image",
+    "page": 63,
+    "bbox": [
+      0,
+      188.21546936035156,
+      612,
+      318
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      176.90582275390625,
+      510.021484375,
+      188.21546936035156
+    ],
+    "image_id": "1803e192_p63_fig37",
+    "subtype": "vector",
+    "caption": "Figure 3-20. Format 5: Latency-Optimized 256B without Optional Bytes Flit Format for CXL.io 1",
+    "section_title": "",
+    "token_count": 14,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "12459847-aa1f-48ef-a54e-bbb1fcb4f4d2",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 37,
+    "chunk_type": "image",
+    "page": 63,
+    "bbox": [
+      0,
+      407.2154846191406,
+      612,
+      542.2154693603516
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      389.5371398925781,
+      461.8254089355469,
+      407.2154846191406
+    ],
+    "image_id": "1803e192_p63_fig38",
+    "subtype": "vector",
+    "caption": "Figure 3-21. Format 5: Latency-Optimized 256B without Optional Bytes Flit Format for CXL.cachemem and Streaming Protocol 1",
+    "section_title": "6. Flit_Marker or Optimized_Update_FC Byte 0, Byte 1, Byte 2, and Byte 3, respectively.",
+    "token_count": 17,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "73005072-00fe-4463-ac20-2d9bc4687d5a",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 38,
+    "chunk_type": "image",
+    "page": 64,
+    "bbox": [
+      0,
+      119.21534729003906,
+      612,
+      249
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      101.47714233398438,
+      447.0448303222656,
+      119.21534729003906
+    ],
+    "image_id": "1803e192_p64_fig39",
+    "subtype": "vector",
+    "caption": "Figure 3-22. Format 6: Latency-Optimized 256B with Optional Bytes Flit Format for CXL.io or PCIe 1",
+    "section_title": "",
+    "token_count": 16,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "3b4d6ea2-6999-4275-96f2-dc0d99cc7a11",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 39,
+    "chunk_type": "image",
+    "page": 64,
+    "bbox": [
+      0,
+      341.2154846191406,
+      612,
+      469.21534729003906
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      323.5371398925781,
+      447.0448303222656,
+      341.2154846191406
+    ],
+    "image_id": "1803e192_p64_fig40",
+    "subtype": "vector",
+    "caption": "Figure 3-23. Format 6: Latency-Optimized 256B with Optional Bytes Flit Format for CXL.cachemem 1",
+    "section_title": "6. Flit_Marker Byte 0, Byte 1, Byte 2, and Byte 3, respectively.",
+    "token_count": 14,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "59822a17-405f-4071-a642-3c1ffe1a7939",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 40,
+    "chunk_type": "image",
+    "page": 65,
+    "bbox": [
+      0,
+      119.21534729003906,
+      612,
+      254
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      101.47714233398438,
+      447.0448303222656,
+      119.21534729003906
+    ],
+    "image_id": "1803e192_p65_fig41",
+    "subtype": "vector",
+    "caption": "Figure 3-24. Format 6: Latency-Optimized 256B with Optional Bytes Flit Format for Streaming Protocol 1",
+    "section_title": "",
+    "token_count": 15,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "aec38b3e-f633-4a46-8570-3296c43b1f06",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 41,
+    "chunk_type": "image",
+    "page": 70,
+    "bbox": [
+      0,
+      377.2154846191406,
+      612,
+      575
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      367.51715087890625,
+      299.6181335449219,
+      377.2154846191406
+    ],
+    "image_id": "1803e192_p70_fig42",
+    "subtype": "vector",
+    "caption": "Figure 3-25. State Machine Hierarchy examples",
+    "section_title": "3.5 State Machine Hierarchy",
+    "token_count": 6,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "f73dcdbc-bd6f-4f68-90d8-8edc68373531",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 42,
+    "chunk_type": "image",
+    "page": 72,
+    "bbox": [
+      0,
+      209.21546936035156,
+      612,
+      471
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      199.51712036132812,
+      327.9985656738281,
+      209.21546936035156
+    ],
+    "image_id": "1803e192_p72_fig43",
+    "subtype": "vector",
+    "caption": "Figure 3-26. Example of hierarchical PM entry for CXL",
+    "section_title": "",
+    "token_count": 9,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "482ae171-7435-4713-a9ec-2f9636e61399",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 43,
+    "chunk_type": "image",
+    "page": 73,
+    "bbox": [
+      0,
+      407.03546142578125,
+      612,
+      531
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      397.3371276855469,
+      266.2628479003906,
+      407.03546142578125
+    ],
+    "image_id": "1803e192_p73_fig44",
+    "subtype": "vector",
+    "caption": "Figure 3-27. Diagram of CRC calculation",
+    "section_title": "3.7 CRC Computation",
+    "token_count": 6,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "da721c47-3c92-4d02-a700-3278748a2dbe",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 44,
+    "chunk_type": "image",
+    "page": 76,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      427
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      452.8733215332031,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p76_fig45",
+    "subtype": "vector",
+    "caption": "Figure 3-28. Successful Parity Feature negotiation between Die 1 Tx and Die 0 Rx",
+    "section_title": "",
+    "token_count": 14,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "77fcdaf6-9263-488f-bd38-6a9686f49a92",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 45,
+    "chunk_type": "image",
+    "page": 77,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      376
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      464.1458435058594,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p77_fig46",
+    "subtype": "vector",
+    "caption": "Figure 3-29. Unsuccessful Parity Feature negotiation between Die 1 Tx and Die 0 Rx",
+    "section_title": "",
+    "token_count": 14,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "dc535100-afbf-4c6a-8607-519d6818e59e",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 46,
+    "chunk_type": "image",
+    "page": 78,
+    "bbox": [
+      0,
+      456.2354736328125,
+      612,
+      552
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      446.5371398925781,
+      318.4732971191406,
+      456.2354736328125
+    ],
+    "image_id": "1803e192_p78_fig47",
+    "subtype": "vector",
+    "caption": "Figure 4-1. Bit arrangement within a byte transfer",
+    "section_title": "4.1.1 Byte to Lane Mapping",
+    "token_count": 8,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "5db7e207-fb02-45ba-8447-e7862c01435a",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 47,
+    "chunk_type": "image",
+    "page": 79,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      159
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      264.6752624511719,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p79_fig48",
+    "subtype": "vector",
+    "caption": "Figure 4-2. Byte map for x64 interface",
+    "section_title": "",
+    "token_count": 7,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "e5ba299b-2000-42e7-bddd-52fc60bde7ba",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 48,
+    "chunk_type": "image",
+    "page": 79,
+    "bbox": [
+      0,
+      184.79579162597656,
+      612,
+      275.1955108642578
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      175.09744262695312,
+      264.6752624511719,
+      184.79579162597656
+    ],
+    "image_id": "1803e192_p79_fig49",
+    "subtype": "vector",
+    "caption": "Figure 4-3. Byte map for x32 interface",
+    "section_title": "",
+    "token_count": 7,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "723646c9-a484-44fc-aebc-38640c52bf2e",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 49,
+    "chunk_type": "image",
+    "page": 79,
+    "bbox": [
+      0,
+      301.8559875488281,
+      612,
+      492.79579162597656
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      292.15765380859375,
+      264.6752624511719,
+      301.8559875488281
+    ],
+    "image_id": "1803e192_p79_fig50",
+    "subtype": "vector",
+    "caption": "Figure 4-4. Byte map for x16 interface",
+    "section_title": "",
+    "token_count": 7,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "2885e8a9-99a1-4e23-8e45-ec532a278a49",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 50,
+    "chunk_type": "image",
+    "page": 80,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      532
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      400.3693542480469,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p80_fig51",
+    "subtype": "vector",
+    "caption": "Figure 4-5. Byte to Lane mapping for Standard package x8 degraded",
+    "section_title": "",
+    "token_count": 11,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "414deb62-23f4-4f53-aae9-8bda8cd29086",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 51,
+    "chunk_type": "image",
+    "page": 81,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      188
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      245.58396911621094,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p81_fig52",
+    "subtype": "vector",
+    "caption": "Figure 4-6. Valid framing example",
+    "section_title": "",
+    "token_count": 5,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "de16c8c9-decd-4868-85cc-b0a1708c6c53",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 52,
+    "chunk_type": "image",
+    "page": 81,
+    "bbox": [
+      0,
+      445.37548828125,
+      612,
+      524.1955108642578
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      435.6771545410156,
+      199.81752014160156,
+      445.37548828125
+    ],
+    "image_id": "1803e192_p81_fig53",
+    "subtype": "vector",
+    "caption": "Figure 4-7. Clock gating",
+    "section_title": "8 UI 8 UI",
+    "token_count": 4,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "df213998-ab36-44fb-9710-6b233558473a",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 53,
+    "chunk_type": "image",
+    "page": 82,
+    "bbox": [
+      0,
+      177.1754913330078,
+      612,
+      254
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      167.47714233398438,
+      363.59063720703125,
+      177.1754913330078
+    ],
+    "image_id": "1803e192_p82_fig54",
+    "subtype": "vector",
+    "caption": "Figure 4-8. A 64 bit Sideband serial packet transfer example",
+    "section_title": "",
+    "token_count": 10,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "5521c4ad-1ab0-4a8d-8883-a833737e7fa1",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 54,
+    "chunk_type": "image",
+    "page": 82,
+    "bbox": [
+      0,
+      286.9754943847656,
+      612,
+      372.1754913330078
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      277.27716064453125,
+      341.8598327636719,
+      286.9754943847656
+    ],
+    "image_id": "1803e192_p82_fig55",
+    "subtype": "raster",
+    "caption": "Figure 4-9. Sideband packet transmission: back to back",
+    "section_title": "64 UI",
+    "token_count": 8,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "2bdcb694-b58e-4a99-ae89-a54bc7a63fd2",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 55,
+    "chunk_type": "image",
+    "page": 85,
+    "bbox": [
+      0,
+      295.1954650878906,
+      612,
+      452
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      285.49713134765625,
+      401.240234375,
+      295.1954650878906
+    ],
+    "image_id": "1803e192_p85_fig56",
+    "subtype": "vector",
+    "caption": "Figure 4-10. Data Lane remapping possibilities to fix potential defects",
+    "section_title": "",
+    "token_count": 10,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "98ab4b7d-8e80-4110-9e09-d87f72be3166",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 56,
+    "chunk_type": "image",
+    "page": 86,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      437
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      292.0382080078125,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p86_fig57",
+    "subtype": "vector",
+    "caption": "Figure 4-11. Data Lane remapping: Mux chain",
+    "section_title": "",
+    "token_count": 7,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "6cd6ad84-e1f3-4544-b0ca-d5f288d8a971",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 57,
+    "chunk_type": "image",
+    "page": 88,
+    "bbox": [
+      0,
+      134.21546936035156,
+      612,
+      291
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      124.51712036132812,
+      279.1402893066406,
+      134.21546936035156
+    ],
+    "image_id": "1803e192_p88_fig58",
+    "subtype": "vector",
+    "caption": "Figure 4-12. Single Lane failure remapping",
+    "section_title": "",
+    "token_count": 6,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "82c7e26f-b56c-4aa5-9fbc-68dbf7313f9b",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 58,
+    "chunk_type": "image",
+    "page": 88,
+    "bbox": [
+      0,
+      310.25506591796875,
+      612,
+      643.2154693603516
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      300.5567321777344,
+      320.8691711425781,
+      310.25506591796875
+    ],
+    "image_id": "1803e192_p88_fig59",
+    "subtype": "vector",
+    "caption": "Figure 4-13. Single Lane remapping implementation",
+    "section_title": "",
+    "token_count": 6,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "69575bf5-7672-4487-976e-1bea4ec5c9a7",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 59,
+    "chunk_type": "image",
+    "page": 90,
+    "bbox": [
+      0,
+      133.1955108642578,
+      612,
+      290
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      123.49716186523438,
+      270.279296875,
+      133.1955108642578
+    ],
+    "image_id": "1803e192_p90_fig60",
+    "subtype": "vector",
+    "caption": "Figure 4-14. Two Lane failure remapping",
+    "section_title": "",
+    "token_count": 6,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "fadde082-423d-4022-93b0-892d63f7cad0",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 60,
+    "chunk_type": "image",
+    "page": 90,
+    "bbox": [
+      0,
+      308.7554931640625,
+      612,
+      643.1955108642578
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      299.0571594238281,
+      311.87969970703125,
+      308.7554931640625
+    ],
+    "image_id": "1803e192_p90_fig61",
+    "subtype": "vector",
+    "caption": "Figure 4-15. Two Lane remapping implementation",
+    "section_title": "",
+    "token_count": 6,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "59edc88b-6f13-485a-b11b-8310a44b3e74",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 61,
+    "chunk_type": "image",
+    "page": 94,
+    "bbox": [
+      0,
+      221.21546936035156,
+      612,
+      374
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      211.51712036132812,
+      245.072509765625,
+      221.21546936035156
+    ],
+    "image_id": "1803e192_p94_fig62",
+    "subtype": "vector",
+    "caption": "Figure 4-16. Clock and Track repair",
+    "section_title": "4.3.4 Clock and Track Lane remapping",
+    "token_count": 6,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "21344761-ff6b-4817-bc5c-3f77a79708f6",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 62,
+    "chunk_type": "image",
+    "page": 94,
+    "bbox": [
+      0,
+      392.6952819824219,
+      612,
+      500.21546936035156
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      382.9969482421875,
+      314.4664001464844,
+      392.6952819824219
+    ],
+    "image_id": "1803e192_p94_fig63",
+    "subtype": "raster",
+    "caption": "Figure 4-17. Clock and track repair: Differential Rx",
+    "section_title": "4.3.4 Clock and Track Lane remapping",
+    "token_count": 8,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "0f70718b-f1f7-4499-921f-ed97581af118",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 63,
+    "chunk_type": "image",
+    "page": 94,
+    "bbox": [
+      0,
+      527.2149047851562,
+      612,
+      657.6952819824219
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      517.5165405273438,
+      349.9046936035156,
+      527.2149047851562
+    ],
+    "image_id": "1803e192_p94_fig64",
+    "subtype": "raster",
+    "caption": "Figure 4-18. Clock and track repair: Pseudo Differential Rx",
+    "section_title": "4.3.4 Clock and Track Lane remapping",
+    "token_count": 9,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "def151df-0385-4f5d-b44b-2fe054bd3c9b",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 64,
+    "chunk_type": "image",
+    "page": 95,
+    "bbox": [
+      0,
+      333.17547607421875,
+      612,
+      498
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      323.4771423339844,
+      306.19366455078125,
+      333.17547607421875
+    ],
+    "image_id": "1803e192_p95_fig65",
+    "subtype": "vector",
+    "caption": "Figure 4-19. Clock and Track Lane repair scheme",
+    "section_title": "4.3.5 Clock and Track Lane repair implementation",
+    "token_count": 8,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "eb8efdb3-9c9a-4443-b2b5-eb8d79b56715",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 65,
+    "chunk_type": "image",
+    "page": 96,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      211
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      296.6607360839844,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p96_fig66",
+    "subtype": "raster",
+    "caption": "Figure 4-20. Clock and track repair: CKP repair",
+    "section_title": "",
+    "token_count": 8,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "6e50fcd8-4956-490c-ab96-074649962b4f",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 66,
+    "chunk_type": "image",
+    "page": 96,
+    "bbox": [
+      0,
+      239.69581604003906,
+      612,
+      347.1955108642578
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      229.99746704101562,
+      297.6598815917969,
+      239.69581604003906
+    ],
+    "image_id": "1803e192_p96_fig67",
+    "subtype": "raster",
+    "caption": "Figure 4-21. Clock and track repair: CKN repair",
+    "section_title": "",
+    "token_count": 8,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "45b88452-77f2-4a57-b74c-44aad5ecb9a0",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 67,
+    "chunk_type": "image",
+    "page": 96,
+    "bbox": [
+      0,
+      375.236083984375,
+      612,
+      483.69581604003906
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      365.5377502441406,
+      303.67608642578125,
+      375.236083984375
+    ],
+    "image_id": "1803e192_p96_fig68",
+    "subtype": "raster",
+    "caption": "Figure 4-22. Clock and track repair: Track repair",
+    "section_title": "",
+    "token_count": 8,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "e6b5541e-d7f4-4643-a976-0a48de536a45",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 68,
+    "chunk_type": "image",
+    "page": 97,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      226
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      258.5869140625,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p97_fig69",
+    "subtype": "vector",
+    "caption": "Figure 4-23. Valid repair: Normal Path",
+    "section_title": "",
+    "token_count": 6,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "0420b3f3-2b34-4a3a-9088-c29bffa532b7",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 69,
+    "chunk_type": "image",
+    "page": 97,
+    "bbox": [
+      0,
+      242.9955596923828,
+      612,
+      367.1955108642578
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      233.29721069335938,
+      257.3292236328125,
+      242.9955596923828
+    ],
+    "image_id": "1803e192_p97_fig70",
+    "subtype": "vector",
+    "caption": "Figure 4-24. Valid Repair: Repair Path",
+    "section_title": "",
+    "token_count": 6,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "015a218b-b8cb-4cb2-a74f-f53794129221",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 70,
+    "chunk_type": "image",
+    "page": 98,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      245
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      244.9847869873047,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p98_fig71",
+    "subtype": "vector",
+    "caption": "Figure 4-25. Test and training logic",
+    "section_title": "",
+    "token_count": 6,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "5adf2d1f-bf6b-47db-a960-64b0c7a99eda",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 71,
+    "chunk_type": "image",
+    "page": 98,
+    "bbox": [
+      0,
+      425.93548583984375,
+      612,
+      667.1955108642578
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      416.2371520996094,
+      242.54627990722656,
+      425.93548583984375
+    ],
+    "image_id": "1803e192_p98_fig72",
+    "subtype": "raster",
+    "caption": "Figure 4-26. Lane failure detection",
+    "section_title": "",
+    "token_count": 5,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "272195da-621e-4fd7-86bd-2e314dbe7849",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 72,
+    "chunk_type": "image",
+    "page": 99,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      300
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      250.56300354003906,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p99_fig73",
+    "subtype": "vector",
+    "caption": "Figure 4-27. All Lane error detection",
+    "section_title": "",
+    "token_count": 6,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "99a00ac8-4814-4b16-974b-fafdc4ec27dc",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 73,
+    "chunk_type": "image",
+    "page": 100,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      681
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      240.1411590576172,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p100_fig74",
+    "subtype": "vector",
+    "caption": "Figure 4-28. LFSR implementation",
+    "section_title": "",
+    "token_count": 4,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "ad9fb2a8-67c7-4096-9104-1df33bd160c7",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 74,
+    "chunk_type": "image",
+    "page": 101,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      676
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      283.9839782714844,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p101_fig75",
+    "subtype": "vector",
+    "caption": "Figure 4-29. LFSR alternate implementation",
+    "section_title": "",
+    "token_count": 5,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "7a3e5140-5c34-4fdc-8769-afc5072eb20c",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 75,
+    "chunk_type": "image",
+    "page": 106,
+    "bbox": [
+      0,
+      364.1954650878906,
+      612,
+      596
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      354.49713134765625,
+      432.3465576171875,
+      364.1954650878906
+    ],
+    "image_id": "1803e192_p106_fig76",
+    "subtype": "vector",
+    "caption": "Figure 4-30. Example Retimer bring up when performing speed/width match",
+    "section_title": "4.5.2 Link Training with Retimer",
+    "token_count": 10,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "d018b9ef-d1bd-4603-a9d2-0f77ed3f24f6",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 76,
+    "chunk_type": "image",
+    "page": 108,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      507
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      269.3491516113281,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p108_fig77",
+    "subtype": "raster",
+    "caption": "Figure 4-31. Link Training State Machine",
+    "section_title": "",
+    "token_count": 6,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "45c997d1-9fd2-4adc-b478-ce1c40c201e5",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 77,
+    "chunk_type": "image",
+    "page": 112,
+    "bbox": [
+      0,
+      195.1754913330078,
+      612,
+      538
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      185.47714233398438,
+      364.2915344238281,
+      195.1754913330078
+    ],
+    "image_id": "1803e192_p112_fig78",
+    "subtype": "vector",
+    "caption": "Figure 4-32. MBINIT: Mainband Initialization and Repair Flow",
+    "section_title": "4.5.3.3 MBINIT",
+    "token_count": 8,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "2161fae1-f1aa-425a-9761-7aa6b47f3031",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 78,
+    "chunk_type": "image",
+    "page": 123,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      459
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      227.87918090820312,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p123_fig79",
+    "subtype": "raster",
+    "caption": "Figure 4-33. Mainband Training",
+    "section_title": "",
+    "token_count": 4,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "70e3d678-c860-494b-9f16-fedeff40b78d",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 79,
+    "chunk_type": "image",
+    "page": 138,
+    "bbox": [
+      0,
+      265.19549560546875,
+      612,
+      364
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      255.49716186523438,
+      371.0064697265625,
+      265.19549560546875
+    ],
+    "image_id": "1803e192_p138_fig80",
+    "subtype": "raster",
+    "caption": "Figure 4-34. Example of Byte Mapping for Matching Module IDs",
+    "section_title": "",
+    "token_count": 10,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "296f59ca-a44b-4547-bffa-52309d4bc695",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 80,
+    "chunk_type": "image",
+    "page": 138,
+    "bbox": [
+      0,
+      381.1153564453125,
+      612,
+      481.19549560546875
+    ],
+    "caption_bbox": [
+      79.37998962402344,
+      371.4170227050781,
+      369.4895324707031,
+      381.1153564453125
+    ],
+    "image_id": "1803e192_p138_fig81",
+    "subtype": "raster",
+    "caption": "Figure 4-35. Example of Byte Mapping for Differing Module IDs",
+    "section_title": "",
+    "token_count": 10,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "63cce9aa-4e25-45b9-a52c-92dc2181ace9",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 81,
+    "chunk_type": "image",
+    "page": 138,
+    "bbox": [
+      0,
+      499.3749694824219,
+      612,
+      614.1153564453125
+    ],
+    "caption_bbox": [
+      79.37998962402344,
+      489.6766357421875,
+      479.5664367675781,
+      499.3749694824219
+    ],
+    "image_id": "1803e192_p138_fig82",
+    "subtype": "raster",
+    "caption": "Figure 4-36. Example of Width Degradation with Byte Mapping for Differing Module IDs",
+    "section_title": "",
+    "token_count": 13,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "a9e9e677-699b-48fa-b853-8678936623bf",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 82,
+    "chunk_type": "image",
+    "page": 139,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      202
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      351.7554931640625,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p139_fig83",
+    "subtype": "raster",
+    "caption": "Figure 4-37. Example of Byte Mapping with Module Disable",
+    "section_title": "",
+    "token_count": 9,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "55ccbed2-9ab4-49e8-8cb2-49d01beb44d6",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 83,
+    "chunk_type": "image",
+    "page": 140,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      348
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      398.04986572265625,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p140_fig84",
+    "subtype": "vector",
+    "caption": "Figure 4-38. Decision Flow Chart for Multi-module Advanced Package",
+    "section_title": "",
+    "token_count": 9,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "7f5a6dbd-f005-47b9-aca4-0aad25c60afe",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 84,
+    "chunk_type": "image",
+    "page": 140,
+    "bbox": [
+      0,
+      370.0754089355469,
+      612,
+      578.1955108642578
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      360.3770751953125,
+      395.2823486328125,
+      370.0754089355469
+    ],
+    "image_id": "1803e192_p140_fig85",
+    "subtype": "raster",
+    "caption": "Figure 4-39. Decision Flow Chart for Multi-module Standard Package",
+    "section_title": "",
+    "token_count": 9,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "682de2f8-23be-4b79-87e2-ec25ff6fdc84",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 85,
+    "chunk_type": "image",
+    "page": 142,
+    "bbox": [
+      0,
+      111.17549133300781,
+      612,
+      280
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      445.17034912109375,
+      111.17549133300781
+    ],
+    "image_id": "1803e192_p142_fig86",
+    "subtype": "vector",
+    "caption": "Figure 4-40. Implementation Example Showing Two Different Operating Modes of the Same Hardware Implementation",
+    "section_title": "",
+    "token_count": 14,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "0c057587-174c-4f12-9b31-1bddc3028360",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 86,
+    "chunk_type": "image",
+    "page": 142,
+    "bbox": [
+      0,
+      430.31549072265625,
+      612,
+      536.1754913330078
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      420.6171569824219,
+      444.3432922363281,
+      430.31549072265625
+    ],
+    "image_id": "1803e192_p142_fig87",
+    "subtype": "raster",
+    "caption": "Figure 4-41. RDI Byte-to-Module Assignment Example for x64 Interop with x32",
+    "section_title": "",
+    "token_count": 11,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "d7d91d38-6869-4090-8b8d-4cde72cd9fa9",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 87,
+    "chunk_type": "image",
+    "page": 145,
+    "bbox": [
+      0,
+      156.83546447753906,
+      612,
+      374
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      147.13711547851562,
+      321.7210693359375,
+      156.83546447753906
+    ],
+    "image_id": "1803e192_p145_fig88",
+    "subtype": "vector",
+    "caption": "Figure 5-1. x64 and x32 Advanced Package Module",
+    "section_title": "",
+    "token_count": 8,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "0e399d82-f378-42bd-8713-bacf36b2c530",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 88,
+    "chunk_type": "image",
+    "page": 145,
+    "bbox": [
+      0,
+      393.95556640625,
+      612,
+      610.8354644775391
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      384.2572326660156,
+      260.61669921875,
+      393.95556640625
+    ],
+    "image_id": "1803e192_p145_fig89",
+    "subtype": "vector",
+    "caption": "Figure 5-2. Standard Package Module",
+    "section_title": "1 Track",
+    "token_count": 5,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "7c6b725e-5e05-40f6-a793-1101897ee195",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 89,
+    "chunk_type": "image",
+    "page": 147,
+    "bbox": [
+      0,
+      188.21546936035156,
+      612,
+      379
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      178.51712036132812,
+      197.38563537597656,
+      188.21546936035156
+    ],
+    "image_id": "1803e192_p147_fig90",
+    "subtype": "vector",
+    "caption": "Figure 5-3. Transmitter",
+    "section_title": "5.3 Transmitter Specification",
+    "token_count": 3,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "a1b46e31-8685-4030-b12e-f4610cf06804",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 90,
+    "chunk_type": "image",
+    "page": 148,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      307
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      298.59429931640625,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p148_fig91",
+    "subtype": "vector",
+    "caption": "Figure 5-4. Transmitter driver example circuit",
+    "section_title": "",
+    "token_count": 6,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "77a7a49e-b7c4-4b0c-951d-fe8e7f69e442",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 91,
+    "chunk_type": "image",
+    "page": 150,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      249
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      257.4334411621094,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p150_fig92",
+    "subtype": "vector",
+    "caption": "Figure 5-5. Transmitter de-emphasis",
+    "section_title": "",
+    "token_count": 4,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "a2084d50-af4c-43b1-be6f-90fe883505f4",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 92,
+    "chunk_type": "image",
+    "page": 150,
+    "bbox": [
+      0,
+      350.9353942871094,
+      612,
+      600.1955108642578
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      341.237060546875,
+      305.0967102050781,
+      350.9353942871094
+    ],
+    "image_id": "1803e192_p150_fig93",
+    "subtype": "vector",
+    "caption": "Figure 5-6. Transmitter de-emphasis waveform",
+    "section_title": "",
+    "token_count": 5,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "27747808-11cb-4c4a-94d9-cd5e40da93bd",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 93,
+    "chunk_type": "image",
+    "page": 151,
+    "bbox": [
+      0,
+      325.1954650878906,
+      612,
+      592
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      315.49713134765625,
+      225.19041442871094,
+      325.1954650878906
+    ],
+    "image_id": "1803e192_p151_fig94",
+    "subtype": "vector",
+    "caption": "Figure 5-7. Receiver topology",
+    "section_title": "5.4 Receiver Specification",
+    "token_count": 4,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "507d6f6e-80ce-4b4f-9074-c576c892bdc2",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 94,
+    "chunk_type": "image",
+    "page": 153,
+    "bbox": [
+      0,
+      211.1955108642578,
+      612,
+      379
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      201.49716186523438,
+      410.3875427246094,
+      211.1955108642578
+    ],
+    "image_id": "1803e192_p153_fig95",
+    "subtype": "raster",
+    "caption": "Figure 5-8. Receiver Termination Map for Table 5-5 (Tx Swing = 0.4 V)",
+    "section_title": "4 10",
+    "token_count": 13,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "3e772e80-208b-4b14-8fb8-7e578d851dad",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 95,
+    "chunk_type": "image",
+    "page": 153,
+    "bbox": [
+      0,
+      415.07574462890625,
+      612,
+      628.1955108642578
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      405.3774108886719,
+      238.65365600585938,
+      415.07574462890625
+    ],
+    "image_id": "1803e192_p153_fig96",
+    "subtype": "vector",
+    "caption": "Figure 5-9. Receiver termination",
+    "section_title": "0 5 10 15 20 25",
+    "token_count": 4,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "67a2bf5c-091f-4ada-b05f-492861863109",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 96,
+    "chunk_type": "image",
+    "page": 154,
+    "bbox": [
+      0,
+      225.1754913330078,
+      612,
+      395
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      215.47714233398438,
+      415.9674072265625,
+      225.1754913330078
+    ],
+    "image_id": "1803e192_p154_fig97",
+    "subtype": "raster",
+    "caption": "Figure 5-10. Receiver termination map for Table 5-6 (TX Swing = 0.85 V)",
+    "section_title": "8 and below All supported Lengths",
+    "token_count": 13,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "f532bfa6-8bdb-435e-95db-a70cc43f953f",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 97,
+    "chunk_type": "image",
+    "page": 155,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      347
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      207.2133026123047,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p155_fig98",
+    "subtype": "raster",
+    "caption": "Figure 5-11. Example CTLE",
+    "section_title": "",
+    "token_count": 4,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "f122bf42-1339-4c5f-9021-48ced66551be",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 98,
+    "chunk_type": "image",
+    "page": 156,
+    "bbox": [
+      0,
+      185.21546936035156,
+      612,
+      589
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      175.51712036132812,
+      239.95887756347656,
+      185.21546936035156
+    ],
+    "image_id": "1803e192_p156_fig99",
+    "subtype": "vector",
+    "caption": "Figure 5-12. Clocking architecture",
+    "section_title": "5.5.1 Track",
+    "token_count": 4,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "e773a96f-b83c-4b37-ba5b-09da5ca24f81",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 99,
+    "chunk_type": "image",
+    "page": 157,
+    "bbox": [
+      0,
+      289.1954650878906,
+      612,
+      533.7000122070312
+    ],
+    "caption_bbox": [
+      148.3800048828125,
+      279.49713134765625,
+      309.4256591796875,
+      289.1954650878906
+    ],
+    "image_id": "1803e192_p157_fig100",
+    "subtype": "vector",
+    "caption": "Figure 5-13. Track Usage Example",
+    "section_title": "",
+    "token_count": 5,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "cd8b4085-e69e-4174-8fab-5a5d72a7be3d",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 100,
+    "chunk_type": "image",
+    "page": 159,
+    "bbox": [
+      0,
+      166.1955108642578,
+      612,
+      403
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      156.49716186523438,
+      241.10191345214844,
+      166.1955108642578
+    ],
+    "image_id": "1803e192_p159_fig101",
+    "subtype": "raster",
+    "caption": "Figure 5-14. Example Eye diagram",
+    "section_title": "5.7 Ball-out and Channel Specification",
+    "token_count": 5,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "ca81eb09-0a61-4d94-8b9b-71c76c936368",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 101,
+    "chunk_type": "image",
+    "page": 160,
+    "bbox": [
+      0,
+      308.2154846191406,
+      612,
+      480.9670104980469
+    ],
+    "caption_bbox": [
+      148.3800048828125,
+      298.51715087890625,
+      349.94219970703125,
+      308.2154846191406
+    ],
+    "image_id": "1803e192_p160_fig102",
+    "subtype": "vector",
+    "caption": "Figure 5-15. Example Eye Simulation Setup",
+    "section_title": "1. Generate ISI and XTALK channel step response using circuit setup shown in",
+    "token_count": 6,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "e9d6606f-c0e7-4d32-bfc1-62359b6a607a",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 102,
+    "chunk_type": "image",
+    "page": 161,
+    "bbox": [
+      0,
+      165.1754913330078,
+      612,
+      505
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      155.47714233398438,
+      260.2738952636719,
+      165.1754913330078
+    ],
+    "image_id": "1803e192_p161_fig103",
+    "subtype": "raster",
+    "caption": "Figure 5-16. Circuit for VTF calculation",
+    "section_title": "5.7.1 Voltage Transfer Function",
+    "token_count": 6,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "7adb6981-4d9a-4cf9-8ec6-fad2241e9808",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 103,
+    "chunk_type": "image",
+    "page": 163,
+    "bbox": [
+      0,
+      318.17547607421875,
+      612,
+      434
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      308.4771423339844,
+      254.1125030517578,
+      318.17547607421875
+    ],
+    "image_id": "1803e192_p163_fig104",
+    "subtype": "raster",
+    "caption": "Figure 5-17. Loss and Crosstalk Mask",
+    "section_title": "5.7.2.1 Loss and Crosstalk Mask",
+    "token_count": 6,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "365217f3-d4c4-43b1-ac59-b5567c854e83",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 104,
+    "chunk_type": "image",
+    "page": 163,
+    "bbox": [
+      0,
+      518.2754516601562,
+      612,
+      606.1754760742188
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      508.5771179199219,
+      418.6684875488281,
+      518.2754516601562
+    ],
+    "image_id": "1803e192_p163_fig105",
+    "subtype": "raster",
+    "caption": "Figure 5-18. Viewer Orientation Looking at the Defined UCIe Bump Matrix",
+    "section_title": "5.7.2.2 x64 Advanced Package Module Bump Map",
+    "token_count": 11,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "be9a2fe1-0ec6-4e0c-890f-8c2a3857564e",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 105,
+    "chunk_type": "image",
+    "page": 165,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      500
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      348.2072448730469,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p165_fig106",
+    "subtype": "vector",
+    "caption": "Figure 5-19. 10-column x64 Advanced Package Bump Map",
+    "section_title": "",
+    "token_count": 8,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "e986dc00-f146-48b5-a83d-fb47f4f06ab8",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 106,
+    "chunk_type": "image",
+    "page": 166,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      312
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      348.2072448730469,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p166_fig107",
+    "subtype": "vector",
+    "caption": "Figure 5-20. 16-column x64 Advanced Package Bump Map",
+    "section_title": "",
+    "token_count": 8,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "ca4de0c8-fb5d-42fa-bb0c-c4d327b2af34",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 107,
+    "chunk_type": "image",
+    "page": 167,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      651
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      342.6363525390625,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p167_fig108",
+    "subtype": "vector",
+    "caption": "Figure 5-21. 8-column x64 Advanced Package Bump Map",
+    "section_title": "",
+    "token_count": 8,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "765a8f2d-ee7f-4b1b-93ed-985e98ca001b",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 108,
+    "chunk_type": "image",
+    "page": 168,
+    "bbox": [
+      0,
+      122.21546936035156,
+      612,
+      206
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      112.51712036132812,
+      429.75762939453125,
+      122.21546936035156
+    ],
+    "image_id": "1803e192_p168_fig109",
+    "subtype": "vector",
+    "caption": "Figure 5-22. 10-column x64 Advanced Package Bump map: Signal exit order",
+    "section_title": "",
+    "token_count": 11,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "fb5c3589-023a-4d52-9644-8520382a2bc5",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 109,
+    "chunk_type": "image",
+    "page": 169,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      414
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      348.2072448730469,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p169_fig110",
+    "subtype": "vector",
+    "caption": "Figure 5-23. 10-column x32 Advanced Package Bump Map",
+    "section_title": "",
+    "token_count": 8,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "6075c320-9644-432e-97a5-37ecbb723a9d",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 110,
+    "chunk_type": "image",
+    "page": 169,
+    "bbox": [
+      0,
+      466.0754699707031,
+      612,
+      596.1955108642578
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      456.37713623046875,
+      348.2072448730469,
+      466.0754699707031
+    ],
+    "image_id": "1803e192_p169_fig111",
+    "subtype": "vector",
+    "caption": "Figure 5-24. 16-column x32 Advanced Package Bump Map",
+    "section_title": "",
+    "token_count": 8,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "9aced7c3-61e2-492a-9560-92b23ca13017",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 111,
+    "chunk_type": "image",
+    "page": 170,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      478
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      342.6363525390625,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p170_fig112",
+    "subtype": "vector",
+    "caption": "Figure 5-25. 8-column x32 Advanced Package Bump Map",
+    "section_title": "",
+    "token_count": 8,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "6b0b3c69-de99-4325-be0f-066a2992a8a4",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 112,
+    "chunk_type": "image",
+    "page": 170,
+    "bbox": [
+      0,
+      552.4754638671875,
+      612,
+      645.1955108642578
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      542.777099609375,
+      430.3337097167969,
+      552.4754638671875
+    ],
+    "image_id": "1803e192_p170_fig113",
+    "subtype": "vector",
+    "caption": "Figure 5-26. 10-column x32 Advanced Package Bump Map: Signal Exit Order",
+    "section_title": "",
+    "token_count": 11,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "aae1bf58-d493-4507-92ce-77d036c3db11",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 113,
+    "chunk_type": "image",
+    "page": 173,
+    "bbox": [
+      0,
+      111.17549133300781,
+      612,
+      466
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      432.90350341796875,
+      111.17549133300781
+    ],
+    "image_id": "1803e192_p173_fig114",
+    "subtype": "vector",
+    "caption": "Figure 5-27. Example of Normal and Mirrored x64-to-x32 Advanced Package Module Connection",
+    "section_title": "",
+    "token_count": 12,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "efdfbb9e-eff6-4c14-a2f1-b298c8d0bd19",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 114,
+    "chunk_type": "image",
+    "page": 174,
+    "bbox": [
+      0,
+      111.17549133300781,
+      612,
+      464
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      432.90350341796875,
+      111.17549133300781
+    ],
+    "image_id": "1803e192_p174_fig115",
+    "subtype": "vector",
+    "caption": "Figure 5-28. Example of Normal and Mirrored x32-to-x32 Advanced Package Module Connection",
+    "section_title": "",
+    "token_count": 12,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "88a8a41b-f30d-4eb0-981a-783dde8133d2",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 115,
+    "chunk_type": "image",
+    "page": 175,
+    "bbox": [
+      0,
+      111.17549133300781,
+      612,
+      313
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      472.3279113769531,
+      111.17549133300781
+    ],
+    "image_id": "1803e192_p175_fig116",
+    "subtype": "raster",
+    "caption": "Figure 5-29. Naming Convention for One-, Two-, and Four-module Advanced Package Paired with “Standard Die Rotate” Configurations",
+    "section_title": "",
+    "token_count": 17,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "3d40c0c2-d3b9-4cad-9da1-27a7cb1c6992",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 116,
+    "chunk_type": "image",
+    "page": 175,
+    "bbox": [
+      0,
+      389.9353332519531,
+      612,
+      594.1754913330078
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      372.1971435546875,
+      472.3302917480469,
+      389.9353332519531
+    ],
+    "image_id": "1803e192_p175_fig117",
+    "subtype": "raster",
+    "caption": "Figure 5-30. Naming Convention for One-, Two-, and Four-module Advanced Package Paired with “Mirrored Die Rotate” Configurations",
+    "section_title": "",
+    "token_count": 17,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "47c0fbaf-d1ab-437c-a42a-6e702c3eeb2f",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 117,
+    "chunk_type": "image",
+    "page": 176,
+    "bbox": [
+      0,
+      331.19549560546875,
+      612,
+      527
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      313.51715087890625,
+      472.48016357421875,
+      331.19549560546875
+    ],
+    "image_id": "1803e192_p176_fig118",
+    "subtype": "raster",
+    "caption": "Figure 5-31. Examples for Advanced Package Configurations Paired with “Standard Die Rotate” Counterparts, with a Different Number of Modules",
+    "section_title": "",
+    "token_count": 19,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "18e6a7f5-6fcf-4fcc-ae65-5232e497a5b9",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 118,
+    "chunk_type": "image",
+    "page": 177,
+    "bbox": [
+      0,
+      152.21534729003906,
+      612,
+      345
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      134.47714233398438,
+      470.2321472167969,
+      152.21534729003906
+    ],
+    "image_id": "1803e192_p177_fig119",
+    "subtype": "raster",
+    "caption": "Figure 5-32. Examples for Advanced Package Configurations Paired with “Mirrored Die Rotate” Counterparts, with a Different Number of Modules",
+    "section_title": "",
+    "token_count": 19,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "67d2629f-a8df-4305-a20d-58a8210260a9",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 119,
+    "chunk_type": "image",
+    "page": 180,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      244
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      340.81243896484375,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p180_fig120",
+    "subtype": "raster",
+    "caption": "Figure 5-33. Standard Package Bump Map: x16 interface",
+    "section_title": "",
+    "token_count": 8,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "9e5acb1f-0d82-49b7-8cca-5c9940d021b2",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 120,
+    "chunk_type": "image",
+    "page": 180,
+    "bbox": [
+      0,
+      269.21539306640625,
+      612,
+      302.1955108642578
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      259.5170593261719,
+      368.3475646972656,
+      269.21539306640625
+    ],
+    "image_id": "1803e192_p180_fig121",
+    "subtype": "vector",
+    "caption": "Figure 5-34. Standard Package x16 interface: Signal exit order",
+    "section_title": "",
+    "token_count": 9,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "619bf71d-3b6f-4d97-ba50-ab078e05ceec",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 121,
+    "chunk_type": "image",
+    "page": 181,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      362
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      340.81243896484375,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p181_fig122",
+    "subtype": "raster",
+    "caption": "Figure 5-35. Standard Package Bump Map: x32 interface",
+    "section_title": "",
+    "token_count": 8,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "85e64739-01d6-4894-a57b-af5c0087ac2c",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 122,
+    "chunk_type": "image",
+    "page": 181,
+    "bbox": [
+      0,
+      387.1757507324219,
+      612,
+      438.1955108642578
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      377.4774169921875,
+      376.8218994140625,
+      387.1757507324219
+    ],
+    "image_id": "1803e192_p181_fig123",
+    "subtype": "vector",
+    "caption": "Figure 5-36. Standard Package x32 interface: Signal exit routing",
+    "section_title": "",
+    "token_count": 9,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "15b06248-8fc6-4862-b266-cc4a12bf2b67",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 123,
+    "chunk_type": "image",
+    "page": 181,
+    "bbox": [
+      0,
+      475.1959533691406,
+      612,
+      661.1757507324219
+    ],
+    "caption_bbox": [
+      79.3800048828125,
+      465.49761962890625,
+      375.8957214355469,
+      475.1959533691406
+    ],
+    "image_id": "1803e192_p181_fig124",
+    "subtype": "raster",
+    "caption": "Figure 5-37. Standard Package cross section for stacked module",
+    "section_title": "",
+    "token_count": 9,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "3d0acacf-5171-4669-902b-06f03b4b6886",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 124,
+    "chunk_type": "image",
+    "page": 182,
+    "bbox": [
+      0,
+      189.32131958007812,
+      612,
+      336
+    ],
+    "caption_bbox": [
+      83.58000183105469,
+      180.86260986328125,
+      314.36181640625,
+      189.32131958007812
+    ],
+    "image_id": "1803e192_p182_fig125",
+    "subtype": "raster",
+    "caption": "Figure 5-38. Standard Package reference configuration",
+    "section_title": "",
+    "token_count": 6,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "7948ba8f-287d-45c7-923e-bf781969c2bd",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 125,
+    "chunk_type": "image",
+    "page": 183,
+    "bbox": [
+      0,
+      111.17549133300781,
+      612,
+      342
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      469.5948181152344,
+      111.17549133300781
+    ],
+    "image_id": "1803e192_p183_fig126",
+    "subtype": "raster",
+    "caption": "Figure 5-39. Naming Convention for One-, Two-, and Four-module Standard Package Paired with “Standard Die Rotate” Configurations",
+    "section_title": "",
+    "token_count": 17,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "346cd78c-e93c-425f-a42c-bf01528539e9",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 126,
+    "chunk_type": "image",
+    "page": 183,
+    "bbox": [
+      0,
+      413.0354919433594,
+      612,
+      650.1754913330078
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      395.3571472167969,
+      469.5948181152344,
+      413.0354919433594
+    ],
+    "image_id": "1803e192_p183_fig127",
+    "subtype": "raster",
+    "caption": "Figure 5-40. Naming Convention for One-, Two-, and Four-module Standard Package Paired with “Mirrored Die Rotate” Configurations",
+    "section_title": "",
+    "token_count": 17,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "2f257399-566e-474c-8ef2-3d30d8498709",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 127,
+    "chunk_type": "image",
+    "page": 185,
+    "bbox": [
+      0,
+      152.21534729003906,
+      612,
+      425
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      134.47714233398438,
+      472.4793701171875,
+      152.21534729003906
+    ],
+    "image_id": "1803e192_p185_fig128",
+    "subtype": "raster",
+    "caption": "Figure 5-41. Examples for Standard Package Configurations Paired with “Standard Die Rotate” Counterparts, with a Different Number of Modules",
+    "section_title": "",
+    "token_count": 19,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "eb7d6f50-bfd7-4cd2-b642-7450186e0fa2",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 128,
+    "chunk_type": "image",
+    "page": 186,
+    "bbox": [
+      0,
+      152.21534729003906,
+      612,
+      431
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      134.47714233398438,
+      470.23138427734375,
+      152.21534729003906
+    ],
+    "image_id": "1803e192_p186_fig129",
+    "subtype": "raster",
+    "caption": "Figure 5-42. Examples for Standard Package Configurations Paired with “Mirrored Die Rotate” Counterparts, with a Different Number of Modules",
+    "section_title": "",
+    "token_count": 19,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "ed451e69-aac3-4b03-a945-5158d85bb687",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 129,
+    "chunk_type": "image",
+    "page": 186,
+    "bbox": [
+      0,
+      507.65533447265625,
+      612,
+      626.2153472900391
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      489.9171447753906,
+      470.232177734375,
+      507.65533447265625
+    ],
+    "image_id": "1803e192_p186_fig130",
+    "subtype": "raster",
+    "caption": "Figure 5-43. Additional Examples for Standard Package Configurations Paired with “Mirrored Die Rotate” Counterparts, with a Different Number of Modules",
+    "section_title": "",
+    "token_count": 20,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "ba338c61-ce10-462b-b3c4-d00c7938c2cb",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 130,
+    "chunk_type": "image",
+    "page": 188,
+    "bbox": [
+      0,
+      354.2354736328125,
+      612,
+      439
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      344.5371398925781,
+      500.0921630859375,
+      354.2354736328125
+    ],
+    "image_id": "1803e192_p188_fig131",
+    "subtype": "raster",
+    "caption": "Figure 5-44. Example of a Configuration for Standard Package, with Some Modules Disabled",
+    "section_title": "1. The degraded link shall be either one or two modules, and shall not be three modules.",
+    "token_count": 13,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "bc6ec8da-df2a-4153-8c20-077d67d75cee",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 131,
+    "chunk_type": "image",
+    "page": 190,
+    "bbox": [
+      0,
+      195.1754913330078,
+      612,
+      313
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      185.47714233398438,
+      265.9097900390625,
+      195.1754913330078
+    ],
+    "image_id": "1803e192_p190_fig132",
+    "subtype": "vector",
+    "caption": "Figure 5-45. Data Lane repair resources",
+    "section_title": "",
+    "token_count": 6,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "5bce4e45-eb0c-4642-b800-914e392d9164",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 132,
+    "chunk_type": "image",
+    "page": 190,
+    "bbox": [
+      0,
+      332.87518310546875,
+      612,
+      452.1754913330078
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      323.1768493652344,
+      219.1862030029297,
+      332.87518310546875
+    ],
+    "image_id": "1803e192_p190_fig133",
+    "subtype": "vector",
+    "caption": "Figure 5-46. Data Lane repair",
+    "section_title": "",
+    "token_count": 5,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "c60e58aa-8351-4da2-8235-90010cab221a",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 133,
+    "chunk_type": "image",
+    "page": 191,
+    "bbox": [
+      0,
+      275.2154541015625,
+      612,
+      356
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      265.5171203613281,
+      206.6771240234375,
+      275.2154541015625
+    ],
+    "image_id": "1803e192_p191_fig134",
+    "subtype": "vector",
+    "caption": "Figure 5-47. Valid Framing",
+    "section_title": "4 8 12 16 24 32",
+    "token_count": 4,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "b8a6d1fe-ebf1-4d31-a060-b3a4fc441adc",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 134,
+    "chunk_type": "image",
+    "page": 191,
+    "bbox": [
+      0,
+      624.1152954101562,
+      612,
+      692.2154541015625
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      606.3771362304688,
+      359.6479797363281,
+      624.1152954101562
+    ],
+    "image_id": "1803e192_p191_fig135",
+    "subtype": "vector",
+    "caption": "Figure 5-48. Data, Clock, Valid Levels for Half-rate Clocking: Clock-gated Unterminated Link",
+    "section_title": "8 UI 8 UI",
+    "token_count": 12,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "d07d4986-be27-4cd1-a37b-973eaae6161d",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 135,
+    "chunk_type": "image",
+    "page": 192,
+    "bbox": [
+      0,
+      111.17549133300781,
+      612,
+      200
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      376.3175048828125,
+      111.17549133300781
+    ],
+    "image_id": "1803e192_p192_fig136",
+    "subtype": "vector",
+    "caption": "Figure 5-49. Data, Clock, Valid Levels for Quarter-rate Clocking: Clock-gated Unterminated Link",
+    "section_title": "",
+    "token_count": 12,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "6e907312-6b02-4b5a-a6a3-6f9951059c85",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 136,
+    "chunk_type": "image",
+    "page": 192,
+    "bbox": [
+      0,
+      229.1358184814453,
+      612,
+      297.1754913330078
+    ],
+    "caption_bbox": [
+      79.3800048828125,
+      211.45748901367188,
+      359.6471862792969,
+      229.1358184814453
+    ],
+    "image_id": "1803e192_p192_fig137",
+    "subtype": "vector",
+    "caption": "Figure 5-50. Data, Clock, Valid Levels for Half-rate Clocking: Continuous Clock Unterminated Link",
+    "section_title": "1 UI to 8 UI",
+    "token_count": 13,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "d82ed8d6-9984-45aa-af41-bcdad4d658bc",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 137,
+    "chunk_type": "image",
+    "page": 192,
+    "bbox": [
+      0,
+      540.3553466796875,
+      612,
+      611.1358184814453
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      522.6171264648438,
+      388.76861572265625,
+      540.3553466796875
+    ],
+    "image_id": "1803e192_p192_fig138",
+    "subtype": "vector",
+    "caption": "Figure 5-51. Data, Clock, Valid Gated Levels for Half-rate Clocking: Terminated Link",
+    "section_title": "1 UI to 8 UI",
+    "token_count": 12,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "1d4840fc-4eb3-40d9-a218-9ec363561f8c",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 138,
+    "chunk_type": "image",
+    "page": 193,
+    "bbox": [
+      0,
+      111.17549133300781,
+      612,
+      202
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      405.2496032714844,
+      111.17549133300781
+    ],
+    "image_id": "1803e192_p193_fig139",
+    "subtype": "vector",
+    "caption": "Figure 5-52. Data, Clock, Valid Gated Levels for Quarter-rate Clocking: Terminated Link",
+    "section_title": "",
+    "token_count": 12,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "4f0a2c2c-99fd-4bab-bfe7-aabb774e698f",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 139,
+    "chunk_type": "image",
+    "page": 193,
+    "bbox": [
+      0,
+      232.1953887939453,
+      612,
+      296.1754913330078
+    ],
+    "caption_bbox": [
+      79.37918090820312,
+      214.51705932617188,
+      388.7366027832031,
+      232.1953887939453
+    ],
+    "image_id": "1803e192_p193_fig140",
+    "subtype": "vector",
+    "caption": "Figure 5-53. Data, Clock, Valid Gated Levels for Half -rate C locking: Continuous C lock Terminated Link",
+    "section_title": "1 UI to 8 UI",
+    "token_count": 17,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "6ff3cc50-58a7-48a3-8b84-14dd561ec7b7",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 140,
+    "chunk_type": "image",
+    "page": 193,
+    "bbox": [
+      0,
+      579.8355102539062,
+      612,
+      655.1953887939453
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      570.1371459960938,
+      229.49197387695312,
+      579.8355102539062
+    ],
+    "image_id": "1803e192_p193_fig141",
+    "subtype": "vector",
+    "caption": "Figure 5-54. Sideband signaling",
+    "section_title": "1 UI to 8 UI",
+    "token_count": 4,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "c7b5ccee-6175-46c0-8918-fa0dadb7e976",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 141,
+    "chunk_type": "image",
+    "page": 199,
+    "bbox": [
+      0,
+      401.2154846191406,
+      612,
+      479
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      391.51715087890625,
+      302.4422607421875,
+      401.2154846191406
+    ],
+    "image_id": "1803e192_p199_fig142",
+    "subtype": "raster",
+    "caption": "Figure 6-1. Format for Register Access request",
+    "section_title": "",
+    "token_count": 7,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "be65c87b-8231-46a2-b9b7-c40bf835a92d",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 142,
+    "chunk_type": "image",
+    "page": 199,
+    "bbox": [
+      0,
+      520.4354858398438,
+      612,
+      604.2154846191406
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      510.7371520996094,
+      322.81195068359375,
+      520.4354858398438
+    ],
+    "image_id": "1803e192_p199_fig143",
+    "subtype": "raster",
+    "caption": "Figure 6-2. Format for Register Access completions",
+    "section_title": "",
+    "token_count": 7,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "3d7529d3-6ae4-438a-93c2-a8ef165c80d5",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 143,
+    "chunk_type": "image",
+    "page": 201,
+    "bbox": [
+      0,
+      153.1754913330078,
+      612,
+      213
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      143.47714233398438,
+      299.3987121582031,
+      153.1754913330078
+    ],
+    "image_id": "1803e192_p201_fig144",
+    "subtype": "raster",
+    "caption": "Figure 6-3. Format for Messages without Data",
+    "section_title": "6.1.2.2 Messages without Data",
+    "token_count": 7,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "a8f7e1f3-cc1e-4a75-9398-d179a3289c26",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 144,
+    "chunk_type": "image",
+    "page": 208,
+    "bbox": [
+      0,
+      153.1754913330078,
+      612,
+      244
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      143.47714233398438,
+      326.2066650390625,
+      153.1754913330078
+    ],
+    "image_id": "1803e192_p208_fig145",
+    "subtype": "raster",
+    "caption": "Figure 6-4. Format for Messages with data payloads",
+    "section_title": "6.1.2.3 Messages with data payloads",
+    "token_count": 8,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "6a7ca838-d181-4189-ae49-232a8ff27364",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 145,
+    "chunk_type": "image",
+    "page": 217,
+    "bbox": [
+      0,
+      306.17547607421875,
+      612,
+      693
+    ],
+    "caption_bbox": [
+      148.3800048828125,
+      288.49713134765625,
+      464.9296569824219,
+      306.17547607421875
+    ],
+    "image_id": "1803e192_p217_fig146",
+    "subtype": "vector",
+    "caption": "Figure 6-5. Example Flow for Remote Register Access Request (Local FDI/RDI Credit Checks Are Not Explicitly Shown)",
+    "section_title": "",
+    "token_count": 17,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "97c7e71a-4056-41ac-9a12-5e7bebf1bbf4",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 146,
+    "chunk_type": "image",
+    "page": 223,
+    "bbox": [
+      0,
+      166.1955108642578,
+      612,
+      591
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      156.49716186523438,
+      389.3236999511719,
+      166.1955108642578
+    ],
+    "image_id": "1803e192_p223_fig147",
+    "subtype": "raster",
+    "caption": "Figure 7-1. Software view Example with Root Ports and Endpoints",
+    "section_title": "7.4 Software view Examples",
+    "token_count": 10,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "c64c1cda-d704-4723-ac0b-cea81518a1b0",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 147,
+    "chunk_type": "image",
+    "page": 224,
+    "bbox": [
+      0,
+      133.1955108642578,
+      612,
+      684
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      123.49716186523438,
+      372.2281494140625,
+      133.1955108642578
+    ],
+    "image_id": "1803e192_p224_fig148",
+    "subtype": "raster",
+    "caption": "Figure 7-2. Software view Example with Switch and Endpoints",
+    "section_title": "",
+    "token_count": 9,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "da749447-b2c1-42c2-b239-a7c38e1870bd",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 148,
+    "chunk_type": "image",
+    "page": 225,
+    "bbox": [
+      0,
+      133.1955108642578,
+      612,
+      467
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      123.49716186523438,
+      328.7795104980469,
+      133.1955108642578
+    ],
+    "image_id": "1803e192_p225_fig149",
+    "subtype": "raster",
+    "caption": "Figure 7-3. Software view Example of UCIe Endpoint",
+    "section_title": "",
+    "token_count": 8,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "339372df-de16-446a-a509-f71ce0861592",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 149,
+    "chunk_type": "image",
+    "page": 227,
+    "bbox": [
+      0,
+      115.19551086425781,
+      612,
+      406
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      105.49716186523438,
+      220.3653106689453,
+      115.19551086425781
+    ],
+    "image_id": "1803e192_p227_fig150",
+    "subtype": "vector",
+    "caption": "Figure 7-4. UCIe Link DVSEC",
+    "section_title": "",
+    "token_count": 5,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "14f269b0-8004-4546-9a4c-b54b26e89c34",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 150,
+    "chunk_type": "image",
+    "page": 269,
+    "bbox": [
+      0,
+      279.17547607421875,
+      612,
+      576
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      269.4771423339844,
+      321.98419189453125,
+      279.17547607421875
+    ],
+    "image_id": "1803e192_p269_fig151",
+    "subtype": "vector",
+    "caption": "Figure 7-5. UCIe Link Health Monitor (UHM) DVSEC",
+    "section_title": "7.5.3.40 UCIe Link Health Monitor (UHM) DVSEC",
+    "token_count": 8,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "e21fb5e1-082a-4d56-83f6-8c0a4e1cf2b9",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 151,
+    "chunk_type": "image",
+    "page": 271,
+    "bbox": [
+      0,
+      187.1955108642578,
+      612,
+      436
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      177.49716186523438,
+      313.0120544433594,
+      187.1955108642578
+    ],
+    "image_id": "1803e192_p271_fig152",
+    "subtype": "raster",
+    "caption": "Figure 7-6. UCIe Test/Compliance Register Block",
+    "section_title": "7.5.4 Test/Compliance Register Block",
+    "token_count": 6,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "45715a9d-649e-4b55-8935-fec02378a57d",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 152,
+    "chunk_type": "image",
+    "page": 287,
+    "bbox": [
+      0,
+      365.2154846191406,
+      612,
+      575
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      355.51715087890625,
+      297.50531005859375,
+      365.2154846191406
+    ],
+    "image_id": "1803e192_p287_fig153",
+    "subtype": "vector",
+    "caption": "Figure 8-1. Example configurations using RDI",
+    "section_title": "8.1 Raw Die-to-Die Interface (RDI)",
+    "token_count": 6,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "238b51b4-aff2-4202-b746-d84a916f3721",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 153,
+    "chunk_type": "image",
+    "page": 293,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      181
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      402.0673522949219,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p293_fig154",
+    "subtype": "vector",
+    "caption": "Figure 8-2. Example Waveform Showing Handling of Level Transition",
+    "section_title": "",
+    "token_count": 9,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "76016e13-e7ec-43b3-a2ad-e5ab2dc2329a",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 154,
+    "chunk_type": "image",
+    "page": 294,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      228
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      347.66180419921875,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p294_fig155",
+    "subtype": "vector",
+    "caption": "Figure 8-3. Data Transfer from Adapter to Physical Layer",
+    "section_title": "",
+    "token_count": 9,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "a82ac602-e1b2-4c8a-9da3-53c4376a4549",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 155,
+    "chunk_type": "image",
+    "page": 294,
+    "bbox": [
+      0,
+      346.0754699707031,
+      612,
+      644.1955108642578
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      336.37713623046875,
+      227.8252410888672,
+      346.0754699707031
+    ],
+    "image_id": "1803e192_p294_fig156",
+    "subtype": "vector",
+    "caption": "Figure 8-4. RDI State Machine",
+    "section_title": "0 1 2 3 4 5 6",
+    "token_count": 5,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "ea7d348f-a527-45a0-914b-52347fd0ae7f",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 156,
+    "chunk_type": "image",
+    "page": 295,
+    "bbox": [
+      0,
+      398.2154846191406,
+      612,
+      681
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      388.51715087890625,
+      312.35687255859375,
+      398.2154846191406
+    ],
+    "image_id": "1803e192_p295_fig157",
+    "subtype": "vector",
+    "caption": "Figure 8-5. Example flow of Link bring up on RDI",
+    "section_title": "6. This opens up the Adapter to transition to Stage 3 of the bring up flow.",
+    "token_count": 10,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "a6305a73-80c0-49a6-845b-ae6e498d906a",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 157,
+    "chunk_type": "image",
+    "page": 298,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      275
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      256.5933837890625,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p298_fig158",
+    "subtype": "vector",
+    "caption": "Figure 8-6. Successful PM entry flow",
+    "section_title": "",
+    "token_count": 6,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "757a066f-f8cc-451d-8183-3e1b8335f19e",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 158,
+    "chunk_type": "image",
+    "page": 299,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      349
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      207.58737182617188,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p299_fig159",
+    "subtype": "vector",
+    "caption": "Figure 8-7. PM Abort flow",
+    "section_title": "",
+    "token_count": 5,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "1195020e-745f-406e-9c1e-b31cb8882646",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 159,
+    "chunk_type": "image",
+    "page": 299,
+    "bbox": [
+      0,
+      380.455810546875,
+      612,
+      568.1955108642578
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      370.7574768066406,
+      199.98568725585938,
+      380.455810546875
+    ],
+    "image_id": "1803e192_p299_fig160",
+    "subtype": "vector",
+    "caption": "Figure 8-8. PM Exit flow",
+    "section_title": "",
+    "token_count": 5,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "43508c51-61e3-4402-8a05-1ed313c5c1ef",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 160,
+    "chunk_type": "image",
+    "page": 300,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      401
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      387.5011291503906,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p300_fig161",
+    "subtype": "vector",
+    "caption": "Figure 8-9. RDI PM Exit Example Showing Interactions with LTSM",
+    "section_title": "",
+    "token_count": 10,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "243d9fd6-5b46-45d8-a940-9f2cafa8a9e1",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 161,
+    "chunk_type": "image",
+    "page": 301,
+    "bbox": [
+      0,
+      177.1754913330078,
+      612,
+      452
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      167.47714233398438,
+      296.3761291503906,
+      177.1754913330078
+    ],
+    "image_id": "1803e192_p301_fig162",
+    "subtype": "vector",
+    "caption": "Figure 8-10. Example configurations using FDI",
+    "section_title": "8.2 Flit-Aware Die-to-Die Interface (FDI)",
+    "token_count": 6,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "c7fa384d-658b-4561-a61c-52df9c3f2c40",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 162,
+    "chunk_type": "image",
+    "page": 309,
+    "bbox": [
+      0,
+      408.2354736328125,
+      612,
+      487
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      398.5371398925781,
+      402.0601806640625,
+      408.2354736328125
+    ],
+    "image_id": "1803e192_p309_fig163",
+    "subtype": "vector",
+    "caption": "Figure 8-11. Example Waveform Showing Handling of Level Transition",
+    "section_title": "8.2.3.2 Rules and description for pl_clk_req/lp_clk_ack handshake",
+    "token_count": 9,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "b274ff35-bc58-4211-bbe2-38abb8a9eb0f",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 163,
+    "chunk_type": "image",
+    "page": 310,
+    "bbox": [
+      0,
+      319.1954650878906,
+      612,
+      447
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      309.49713134765625,
+      348.0072937011719,
+      319.1954650878906
+    ],
+    "image_id": "1803e192_p310_fig164",
+    "subtype": "vector",
+    "caption": "Figure 8-12. Data Transfer from Protocol Layer to Adapter",
+    "section_title": "8.2.4 Data Transfer",
+    "token_count": 9,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "3044eae5-2c3e-4a80-9e30-9909c24bc84a",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 164,
+    "chunk_type": "image",
+    "page": 311,
+    "bbox": [
+      0,
+      510.2353210449219,
+      612,
+      552
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      492.49713134765625,
+      388.9058532714844,
+      510.2353210449219
+    ],
+    "image_id": "1803e192_p311_fig165",
+    "subtype": "raster",
+    "caption": "Figure 8-13. Example for pl_flit_cancel for Latency-Optimized Flits and CRC Error on First Flit Half",
+    "section_title": "8.2.5 Examples of pl_flit_cancel Timing Relationships",
+    "token_count": 15,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "96dd2489-f4cb-4c7d-876d-0d90905764f3",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 165,
+    "chunk_type": "image",
+    "page": 312,
+    "bbox": [
+      0,
+      153.1754913330078,
+      612,
+      195
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      135.49716186523438,
+      388.9058532714844,
+      153.1754913330078
+    ],
+    "image_id": "1803e192_p312_fig166",
+    "subtype": "raster",
+    "caption": "Figure 8-14. Example for pl_flit_cancel for Latency-Optimized Flits and CRC Error on Second Flit Half",
+    "section_title": "",
+    "token_count": 15,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "f3726fd0-f768-4226-a227-a35429b045ba",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 166,
+    "chunk_type": "image",
+    "page": 312,
+    "bbox": [
+      0,
+      224.21583557128906,
+      612,
+      267.1754913330078
+    ],
+    "caption_bbox": [
+      79.3800048828125,
+      206.53750610351562,
+      457.8056640625,
+      224.21583557128906
+    ],
+    "image_id": "1803e192_p312_fig167",
+    "subtype": "raster",
+    "caption": "Figure 8-15. Example for pl_flit_cancel for Latency-Optimized Flits and CRC Error on Second Flit Half, Alternate Implementation Example",
+    "section_title": "",
+    "token_count": 18,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "469720a5-f147-43dd-9f0c-fc6b36e5982f",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 167,
+    "chunk_type": "image",
+    "page": 312,
+    "bbox": [
+      0,
+      232.21583557128906,
+      612,
+      328.9754638671875
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      319.2771301269531,
+      368.5373840332031,
+      328.9754638671875
+    ],
+    "image_id": "1803e192_p312_fig168",
+    "subtype": "raster",
+    "caption": "Figure 8-16. Example for pl_flit_cancel for Standard 256B Flits",
+    "section_title": "",
+    "token_count": 9,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "54bb7a97-b389-4d31-a942-8334b331ed18",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 168,
+    "chunk_type": "image",
+    "page": 313,
+    "bbox": [
+      0,
+      143.21546936035156,
+      612,
+      569
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      133.51712036132812,
+      226.7224578857422,
+      143.21546936035156
+    ],
+    "image_id": "1803e192_p313_fig169",
+    "subtype": "vector",
+    "caption": "Figure 8-17. FDI State Machine",
+    "section_title": "8.2.6 FDI State Machine",
+    "token_count": 5,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "d49398c2-8ea2-42ab-b9f4-a78ad32006ab",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 169,
+    "chunk_type": "image",
+    "page": 315,
+    "bbox": [
+      0,
+      144.1754913330078,
+      612,
+      390
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      134.47714233398438,
+      223.6408233642578,
+      144.1754913330078
+    ],
+    "image_id": "1803e192_p315_fig170",
+    "subtype": "vector",
+    "caption": "Figure 8-18. FDI Bring up flow",
+    "section_title": "",
+    "token_count": 6,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "f6215230-5240-4fe5-81ac-9161258ec5ee",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 170,
+    "chunk_type": "image",
+    "page": 318,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      299
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      341.52740478515625,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p318_fig171",
+    "subtype": "vector",
+    "caption": "Figure 8-19. PM Entry example for CXL or PCIe protocols",
+    "section_title": "",
+    "token_count": 10,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "3aea6e13-cf82-4959-ae42-cbcfbdf122fa",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 171,
+    "chunk_type": "image",
+    "page": 318,
+    "bbox": [
+      0,
+      315.2352600097656,
+      612,
+      524.1955108642578
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      305.53692626953125,
+      330.65106201171875,
+      315.2352600097656
+    ],
+    "image_id": "1803e192_p318_fig172",
+    "subtype": "vector",
+    "caption": "Figure 8-20. PM Entry example for symmetric protocol",
+    "section_title": "",
+    "token_count": 8,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "65ade5db-302d-48d8-9a46-47fda055d4f2",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 172,
+    "chunk_type": "image",
+    "page": 319,
+    "bbox": [
+      0,
+      103.19551086425781,
+      612,
+      312
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      226.45745849609375,
+      103.19551086425781
+    ],
+    "image_id": "1803e192_p319_fig173",
+    "subtype": "vector",
+    "caption": "Figure 8-21. PM Abort Example",
+    "section_title": "",
+    "token_count": 5,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "7aa3628a-1580-4f8c-a219-1b54acf2a153",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 173,
+    "chunk_type": "image",
+    "page": 319,
+    "bbox": [
+      0,
+      329.5753173828125,
+      612,
+      672.1955108642578
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      319.8769836425781,
+      218.6370849609375,
+      329.5753173828125
+    ],
+    "image_id": "1803e192_p319_fig174",
+    "subtype": "vector",
+    "caption": "Figure 8-22. PM Exit Example",
+    "section_title": "",
+    "token_count": 5,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "efedd8c2-74c2-42e4-8eea-1536bd753acd",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 174,
+    "chunk_type": "image",
+    "page": 320,
+    "bbox": [
+      0,
+      436.1954650878906,
+      612,
+      552
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      424.9458312988281,
+      399.3215637207031,
+      436.1954650878906
+    ],
+    "image_id": "1803e192_p320_fig175",
+    "subtype": "vector",
+    "caption": "Figure 8-23. CXL.io Standard 256B Start Header Flit Format Example 1",
+    "section_title": "8.3.1 Byte Mapping for FDI and RDI",
+    "token_count": 11,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "fbc5d9f7-6872-4215-aa9f-f08e7f370ef8",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 175,
+    "chunk_type": "image",
+    "page": 321,
+    "bbox": [
+      0,
+      115.19551086425781,
+      612,
+      236
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      105.49716186523438,
+      345.0223083496094,
+      115.19551086425781
+    ],
+    "image_id": "1803e192_p321_fig176",
+    "subtype": "vector",
+    "caption": "Figure 8-24. FDI (or RDI) Byte Mapping for 64B Datapath",
+    "section_title": "",
+    "token_count": 10,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "fb53b55c-ea70-4492-a886-aa698cbe624e",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 176,
+    "chunk_type": "image",
+    "page": 321,
+    "bbox": [
+      0,
+      296.2154846191406,
+      612,
+      389.1955108642578
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      286.51715087890625,
+      350.6936340332031,
+      296.2154846191406
+    ],
+    "image_id": "1803e192_p321_fig177",
+    "subtype": "vector",
+    "caption": "Figure 8-25. FDI (or RDI) Byte Mapping for 128B Datapath",
+    "section_title": "3 Flit Byte 192 Flit Byte 193 Flit Byte 194 … Flit Byte 252 Flit Byte 253 Flit Byte 254 Flit Byte 255",
+    "token_count": 10,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "b27fe92f-106b-4c3b-84a8-e19456a12c09",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 177,
+    "chunk_type": "image",
+    "page": 328,
+    "bbox": [
+      0,
+      188.21546936035156,
+      612,
+      504
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      178.51712036132812,
+      229.52182006835938,
+      188.21546936035156
+    ],
+    "image_id": "1803e192_p328_fig178",
+    "subtype": "vector",
+    "caption": "Figure 8-26. LinkReset Example",
+    "section_title": "8.3.4.1 LinkReset Entry and Exit",
+    "token_count": 4,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "865b099a-69f7-4bf2-bf40-13c19ffb3776",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 178,
+    "chunk_type": "image",
+    "page": 329,
+    "bbox": [
+      0,
+      153.1754913330078,
+      612,
+      488
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      143.47714233398438,
+      227.0368194580078,
+      153.1754913330078
+    ],
+    "image_id": "1803e192_p329_fig179",
+    "subtype": "vector",
+    "caption": "Figure 8-27. LinkError example",
+    "section_title": "8.3.4.2 LinkError",
+    "token_count": 4,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "9b8683c3-a785-442a-84df-747b0739128b",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 179,
+    "chunk_type": "image",
+    "page": 331,
+    "bbox": [
+      0,
+      111.17549133300781,
+      612,
+      414
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      93.49716186523438,
+      491.46722412109375,
+      111.17549133300781
+    ],
+    "image_id": "1803e192_p331_fig180",
+    "subtype": "raster",
+    "caption": "Figure 9-1. Examples of Standard and Advanced Package setups for DUT and Golden Die Compliance Testing",
+    "section_title": "",
+    "token_count": 16,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  },
+  {
+    "chunk_id": "330b2233-e5d4-4d8c-ae7a-f272d26c5408",
+    "doc_id": "1803e192",
+    "source_file": "Universal Chiplet Interconnect Express (UCIe) Specification Revision 1.1.pdf",
+    "chunk_index": 180,
+    "chunk_type": "image",
+    "page": 336,
+    "bbox": [
+      0,
+      452.9954833984375,
+      612,
+      636
+    ],
+    "caption_bbox": [
+      79.37999725341797,
+      443.2971496582031,
+      233.55023193359375,
+      452.9954833984375
+    ],
+    "image_id": "1803e192_p336_fig181",
+    "subtype": "vector",
+    "caption": "Figure B-1. AIB interoperability",
+    "section_title": "",
+    "token_count": 4,
+    "qa_score": 100,
+    "qa_grade": "A",
+    "qa_issues": []
+  }
+]
