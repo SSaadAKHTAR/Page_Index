@@ -1192,6 +1192,54 @@ Figure 1-1 demonstrates an SoC package composed of CPU Dies, accelerator Die(s) 
 
 Figure 1-1. A Package Composed of CPU Dies, Accelerator Die(s), and I/O Tile Die Connected through UCIe
 
+> **Generated Definition for Figure 1-1**: The provided image, titled "A Package Composed of CPU Dies, Accelerator Die(s), and I/O Tile Die Connected through UCIe," depicts a heterogeneous integrated package architecture leveraging the Universal Chiplet Interconnect Express (UCIe) protocol.
+
+### Definition and Description:
+
+**Figure 1-1: UCIe-Based Heterogeneous Package Architecture**
+This figure illustrates a **multi-die package** that integrates multiple **CPU dies**, **accelerator dies**, and an **I/O Tile die**, all interconnected using the **Universal Chiplet Interconnect Express (UCIe)** interface.
+
+#### Components:
+1. **CPU Dies**:
+   - Two central processing units (CPUs) are depicted, each connected to local memory (Mem) modules.
+   - The CPUs are responsible for general-purpose computation and control within the package.
+
+2. **Accelerator Die(s)**:
+   - A specialized die designed to perform specific computational tasks more efficiently than a general-purpose CPU.
+   - The accelerator die is connected to its own memory module and interfaces with the CPUs through UCIe.
+
+3. **I/O Tile Die**:
+   - A die dedicated to handling input/output operations, including communication with external devices and systems.
+   - The I/O Tile die is connected to its own memory module and interfaces with the CPUs and accelerator die through UCIe.
+
+#### Interfaces and Connections:
+1. **UCIe (Universal Chiplet Interconnect Express)**:
+   - The primary interconnect technology used to establish communication between the CPU dies, accelerator die, and I/O Tile die.
+   - UCIe provides a standardized interface for high-speed, low-latency communication between chiplets (dies) within the package.
+
+2. **Memory Modules (Mem)**:
+   - Each die (CPU, accelerator, and I/O Tile) is connected to its own memory module, providing dedicated storage for data and instructions specific to that die.
+
+3. **CXL/PCIe and DDR Interfaces**:
+   - The I/O Tile die connects to external interfaces such as **Compute Express Link (CXL)** or **Peripheral Component Interconnect Express (PCIe)** for communication with other devices or systems.
+   - The DDR (Double Data Rate) interface is used for high-speed memory access, likely connecting to external DDR memory modules.
+
+#### Data Flow and Communication:
+- **Internal Communication**:
+  - UCIe links facilitate communication between the CPU dies, accelerator die, and I/O Tile die, allowing for efficient data transfer and coordination.
+  - Each die can access its own memory module directly, and data can be shared or transferred between dies through UCIe.
+
+- **External Communication**:
+  - The I/O Tile die manages external communication through CXL/PCIe and DDR interfaces, enabling the package to interact with other systems or devices.
+
+#### States and Operational Modes:
+- The figure does not explicitly depict operational states, but UCIe supports various states for power management and communication efficiency, such as active, low-power, and sleep states.
+- The UCIe protocol ensures reliable data transfer through mechanisms like error correction, flow control, and handshaking protocols.
+
+### Summary:
+This figure represents a **heterogeneous integrated package** where multiple specialized dies (CPU, accelerator, and I/O Tile) are interconnected using the UCIe protocol. Each die has its own dedicated memory, and the I/O Tile die manages external communication through CXL/PCIe and DDR interfaces. UCIe enables high-speed, low-latency communication between the dies, facilitating efficient data sharing and processing within the package. The architecture is designed to optimize performance, power efficiency, and scalability for modern computing applications.
+
+
 <!-- image -->
 
 A UCIe Retimer may be used to extend the UCIe connectivity beyond the package using an OffPackage Interconnect. Examples of Off-Package Interconnect include electrical cable or optical cable or any other technology to connect packages at a Rack/Pod level as shown in Figure 1-2. The UCIe specification requires the UCIe Retimer to implement the UCIe interface to the Die that it connects on its local package and ensure that the Flits are delivered to the remote UCIe Die interface in the separate package following UCIe protocol using the channel extension technology of its choice.
@@ -1340,6 +1388,67 @@ Figure 1-9. Single module configuration: Advanced Package
 
 Figure 1-10. Single module configuration: Standard Package
 
+> **Generated Definition for Figure 1-10**: The image titled "Figure 1-10: Single Module Configuration_Standard Package" represents a block diagram of a single module configuration in a Standard Package for a high-speed data interface. Here is a detailed, specification-aware definition based on the provided image and context:
+
+---
+
+### Definition of Figure 1-10: Single Module Configuration_Standard Package
+
+**Purpose:**
+This diagram illustrates the internal functional blocks and signal interfaces of a single module in a Standard Package configuration. It highlights the key components involved in data transmission and reception, including the PHY (Physical Layer) logic, electrical/analog front-end (AFE), and sideband signals.
+
+---
+
+### Components and Interfaces:
+
+1. **Die-to-Die Adapter:**
+   - This is the top-most layer in the diagram, responsible for interfacing between different dies or modules. It ensures proper communication and signal integrity across module boundaries.
+
+2. **PHY Logic:**
+   - The PHY (Physical Layer) logic is responsible for the encoding, decoding, and serialization/deserialization of data. It handles the conversion of data between the electrical domain and the internal logic domain of the module.
+
+3. **Electrical/Analog Front-End (AFE):**
+   - The AFE block manages the analog and electrical signal processing. It includes components like transceivers, clock data recovery (CDR), and signal amplification. This block is critical for ensuring high-speed data integrity and proper signal transmission/reception.
+
+4. **Sideband:**
+   - The sideband interface is used for control and management signals that are separate from the main data path. These signals are essential for configuration, monitoring, and control of the module.
+
+---
+
+### Signal Interfaces:
+
+1. **Sideband:**
+   - The sideband signals are used for out-of-band communication, typically for control and status information. These signals are crucial for managing the module's operation and ensuring proper synchronization and configuration.
+
+2. **FW-CLK (Forward Clock):**
+   - This signal is likely used for clock synchronization and timing control within the module. It ensures that data is transmitted and received at the correct times.
+
+3. **x16:**
+   - This indicates a 16-lane data interface. In the context of high-speed data transmission, this means there are 16 parallel data paths for transmitting and receiving data. Each lane operates at high speed, collectively forming a wide data bus.
+
+4. **Valid and Track:**
+   - **Valid:** This signal indicates whether the data being transmitted or received is valid and should be processed.
+   - **Track:** This signal is likely used for tracking and ensuring the integrity of the data stream, possibly for synchronization or error checking.
+
+---
+
+### Data Flow and Connections:
+
+- **Data Path:**
+  - The data flows through the AFE block, which handles the electrical aspects of the signal, then through the PHY logic for processing, and finally to the Die-to-Die Adapter for interfacing with other modules or dies.
+
+- **Control Path:**
+  - The sideband signals provide control and status information, ensuring that the module operates correctly and is synchronized with other modules or systems.
+
+---
+
+### Summary:
+
+The diagram in Figure 1-10 provides a high-level overview of the internal structure and signal interfaces of a single module in a Standard Package configuration. It emphasizes the separation of data and control paths, the role of the PHY and AFE in managing data transmission, and the use of sideband signals for control and management. The x16 interface indicates a high-speed, wide data bus configuration, ensuring robust data throughput and integrity.
+
+This configuration is likely part of a larger system where multiple modules may be interconnected, requiring careful management of signal integrity, timing, and control to ensure reliable operation.
+
+
 <!-- image -->
 
 
@@ -1354,13 +1463,186 @@ This specification allows for two and four module configurations. When operating
 
 Figure 1-11. Two-module configuration for Standard Package
 
+> **Generated Definition for Figure 1-11**: The image titled **"Figure 1-11: Two-Module Configuration for Standard Package"** illustrates a modular configuration for a **Standard Package** with a focus on the **Physical Layer (PHY) Logic** and **Die-to-Die Adapter** interfaces.
+
+### **Definition and Explanation:**
+
+This figure depicts a **two-module configuration** for a **Standard Package** with an **x32 interface**, where each module contains **PHY Logic** and **Electrical/Analog Front-End (AFE)** components. The configuration is designed to support **die-to-die communication** using a **sideband interface** and **forward clock (FW-CLK)** signals.
+
+---
+
+### **Key Components and Interfaces:**
+
+1. **Die-to-Die Adapter:**
+   - The topmost layer in the diagram, responsible for managing communication between the two modules.
+
+2. **Multi-Module PHY Logic:**
+   - A shared layer that coordinates PHY operations across multiple modules.
+
+3. **PHY Logic (Per Module):**
+   - Each module contains its own **PHY Logic**, which handles the physical layer signaling, encoding, and decoding of data.
+
+4. **Electrical/AFE (Analog Front-End):**
+   - Each module includes an **Electrical/AFE** block, responsible for signal conditioning, serialization/deserialization (SerDes), and analog/digital conversion.
+
+5. **Sideband Interface:**
+   - Used for control and management signaling between modules.
+   - Each module has a dedicated **Sideband** connection.
+
+6. **Forward Clock (FW-CLK):**
+   - A clock signal used for synchronization between modules.
+   - Each module has a **FW-CLK** input, with a **16x multiplication** indicated (likely for high-speed data alignment).
+
+7. **Valid Track:**
+   - A signal indicating when data is valid for transmission/reception.
+
+---
+
+### **Signal and Data Flow:**
+
+- **Sideband Signals:**
+  - Each module communicates control and status information via **Sideband** connections.
+
+- **FW-CLK (x16):**
+  - The **FW-CLK** signal is multiplied by **16** (as indicated in the figure) to align high-speed data transfer between modules.
+
+- **Valid Track:**
+  - Ensures that data is only processed when valid, preventing errors in transmission.
+
+---
+
+### **Configuration and Physical Layout:**
+
+- The **two-module configuration** is structured such that each module operates independently while sharing a **Multi-Module PHY Logic** layer for coordination.
+- The **x32 interface** suggests that each module handles **32 lanes** of data (as referenced in the **Standard Package Bump Map** in the provided context).
+- The **bump map** (as seen in **Figure 5-35**) indicates that each module has **32 signal bumps** for data transmission (txdatasb, txcksb, rxcksb, rxdatasb) and sideband control signals.
+
+---
+
+### **Summary of Connections:**
+
+- **Sideband:** Used for control and management.
+- **FW-CLK (x16):** Ensures synchronized high-speed data transfer.
+- **Valid Track:** Ensures data integrity by validating transmission windows.
+
+This configuration is optimized for **high-speed die-to-die communication** in a **Standard Package**, where two modules work in tandem while maintaining independent PHY and AFE operations. The **Multi-Module PHY Logic** layer ensures proper coordination, while the **Die-to-Die Adapter** manages overall communication.
+
+---
+### **Note on Physical Implementation:**
+- The **Standard Package** typically uses **bump maps** (as seen in **Figure 5-35**) to define signal exits.
+- The **x32 interface** implies a **32-lane data path**, with each lane mapped to specific bumps (e.g., `txdatasb`, `rxcksb`).
+- The **16x clock multiplication** suggests a high-speed data interface, likely supporting **PCIe, CXL, or similar high-bandwidth protocols**.
+
+This figure is part of a broader **Advanced Package** ecosystem, where modules can be configured in **1, 2, or 4-module setups** (as referenced in **Figure 5-29** and **Figure 5-30**).
+
+
 <!-- image -->
 
 Figure 1-12. Four-module configuration for Standard Package
 
+> **Generated Definition for Figure 1-12**: The image titled **"Figure 1-12. Four-module configuration for Standard Package"** illustrates a **four-module configuration** of a **Die-to-Die (D2D) interface** using a **Multi-Module PHY (Physical Layer) Logic** setup.
+
+### **Definition and Explanation:**
+
+This figure depicts the **physical layer architecture** for a **four-module configuration** of a **Standard Package** in a Die-to-Die communication system. Each module consists of:
+
+1. **PHY Logic (Physical Layer Logic):**
+   - Handles the electrical signaling, encoding/decoding, and synchronization of data between dies.
+   - Each module has its own PHY logic block, responsible for managing data lanes and control signals.
+
+2. **Sideband Interface:**
+   - A control interface used for configuration, management, and status monitoring of the PHY.
+   - Each module has a dedicated sideband connection for communication with the system controller or other management entities.
+
+3. **Electrical/AFE (Analog Front-End):**
+   - Manages the electrical signaling characteristics, including termination, impedance matching, and signal integrity.
+   - Each module has an AFE block that interfaces directly with the physical lanes for data transmission and reception.
+
+4. **Data Lanes and Signals:**
+   - Each module supports **16 lanes (x16)** of data transfer, as indicated by the **FW-CLK (Forward Clock)** and **Valid Track** signals.
+   - The **FW-CLK** signal provides timing synchronization for data transfer.
+   - The **Valid Track** signal indicates when valid data is present on the lanes.
+
+### **Configuration Details:**
+- The figure shows **four modules**, each with:
+  - **16 data lanes (x16)** for high-speed data transfer.
+  - **Sideband connections** for control and management.
+  - **Electrical/AFE blocks** for signal conditioning and integrity.
+- The **Multi-Module PHY Logic** layer coordinates the operation of all four modules, ensuring synchronized communication between them.
+
+### **Data Flow and Interfaces:**
+- **FW-CLK (Forward Clock):** Provides timing reference for data transmission.
+- **Valid Track:** Indicates the presence of valid data on the lanes.
+- **Sideband Interface:** Used for configuration, status monitoring, and error handling.
+
+### **Key Observations:**
+- The **x16 configuration** suggests a high-bandwidth interface, suitable for applications requiring significant data throughput between dies.
+- The **Die-to-Die Adapter** layer at the top indicates that this configuration is designed for communication between separate dies in a multi-die package.
+- The **Standard Package** implies compliance with a specific electrical and mechanical specification for Die-to-Die communication.
+
+### **Relation to Provided Context:**
+- The **Byte-to-Lane mapping** (from the provided context) suggests that each lane carries a specific byte sequence, ensuring proper data alignment and transfer.
+- The **termination requirements** (from the context) may apply to ensure signal integrity across the lanes, particularly at higher data rates.
+- The **PHY Logic** and **Electrical/AFE** blocks align with the need for precise signal management, as described in the context for maintaining data integrity over varying channel lengths.
+
+### **Conclusion:**
+This figure represents a **four-module, x16-lane Die-to-Die interface configuration** for a **Standard Package**, emphasizing the modular PHY architecture, sideband control, and electrical signal management required for high-speed, reliable inter-die communication. The setup ensures synchronized data transfer while maintaining signal integrity across multiple modules.
+
+
 <!-- image -->
 
 Figure 1-13. Example of a Two-module Configuration for Advanced Package
+
+> **Generated Definition for Figure 1-13**: The image titled "Figure 1-13: Example of a Two-Module Configuration for Advanced Package" illustrates a high-level architectural configuration for a two-module setup in an advanced packaging scheme, likely for a high-speed serial interface such as those used in data center or high-performance computing applications.
+
+### Definition and Explanation:
+
+**Figure 1-13: Two-Module Configuration for Advanced Package**
+
+This figure depicts a modular configuration of two PHY (Physical Layer) modules integrated within an advanced package, highlighting the interaction between the PHY logic, sideband interfaces, and electrical/analog front-end (AFE) components.
+
+#### Components and Interfaces:
+
+1. **Die-to-Die Adapter:**
+   - This is the topmost layer in the configuration, responsible for facilitating communication between different dies or modules within the package.
+
+2. **Multi-Module PHY Logic:**
+   - This layer manages the PHY logic for multiple modules, ensuring coherent data transfer and synchronization between the modules.
+
+3. **PHY Logic:**
+   - Each module contains its own PHY logic, which handles the encoding, decoding, and serialization/deserialization of data for high-speed communication.
+
+4. **Sideband:**
+   - Sideband interfaces are used for control and management signals that are separate from the main data path. These interfaces facilitate configuration, monitoring, and control of the PHY modules.
+
+5. **Electrical/AFE (Analog Front-End):**
+   - The AFE components manage the analog aspects of the signal, including transmission and reception of electrical signals over the communication channels.
+
+#### Data Flow and Signals:
+
+- **FW-CLK (Firmware Clock):**
+  - This clock signal is used for synchronization purposes within the PHY logic and sideband interfaces.
+
+- **Valid Track:**
+  - This signal indicates the validity of the data being transferred, ensuring that only valid data is processed.
+
+- **x64 or x32:**
+  - These labels indicate the width of the data lanes being used for communication. The configuration supports either 64-bit (x64) or 32-bit (x32) data lanes, allowing flexibility in data transfer widths.
+
+#### Connections and States:
+
+- **Sideband Interface:**
+  - Each module has a sideband interface that connects to the PHY logic and the Die-to-Die Adapter, facilitating control and management functions.
+
+- **Electrical/AFE Interface:**
+  - The electrical/AFE interfaces are connected to the PHY logic and are responsible for the actual transmission and reception of data over the communication channels.
+
+### Summary:
+
+The figure illustrates a two-module configuration where each module contains its own PHY logic and AFE components, connected through sideband interfaces for control and management. The Die-to-Die Adapter ensures communication between the modules. The configuration supports flexible data lane widths (x64 or x32) and includes signals for synchronization (FW-CLK) and data validity (Valid Track).
+
+This setup is designed to optimize data transfer efficiency and reliability in advanced packaging schemes, ensuring robust communication between integrated modules. The figure aligns with the context provided, focusing on the modular and scalable nature of the PHY layer and its associated interfaces.
+
 
 <!-- image -->
 
